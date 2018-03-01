@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/small.png",
+        "source": "/Users/Smile/edcollection/win-android-map/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/small.png"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/xz_s.png",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/xz_s.png"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/xz_n_l.png",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/xz_n_l.png"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/gps.png",
+        "source": "/Users/Smile/edcollection/win-android-map/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/gps.png"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/arrow.png",
+        "source": "/Users/Smile/edcollection/winmedia/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/arrow.png"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/big.png",
+        "source": "/Users/Smile/edcollection/win-android-map/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/big.png"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/xz_n.png",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/xz_n.png"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/gps_s.png",
+        "source": "/Users/Smile/edcollection/win-android-map/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/gps_s.png"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable-xxhdpi/ic_launcher.png"
+    }
+]

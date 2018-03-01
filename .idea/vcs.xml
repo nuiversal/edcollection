@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Android-PullToRefresh-master" vcs="" />
+    <mapping directory="$PROJECT_DIR$/Android-SVProgressHUD-master" vcs="" />
+    <mapping directory="$PROJECT_DIR$/basicbusiness" vcs="" />
+    <mapping directory="$PROJECT_DIR$/edcollection" vcs="" />
+    <mapping directory="$PROJECT_DIR$/win-android-map" vcs="" />
+    <mapping directory="$PROJECT_DIR$/win-android-res" vcs="" />
+    <mapping directory="$PROJECT_DIR$/win-android-util" vcs="" />
+    <mapping directory="$PROJECT_DIR$/winewidgets" vcs="" />
+    <mapping directory="$PROJECT_DIR$/winmedia" vcs="" />
+    <mapping directory="$PROJECT_DIR$/winsensor" vcs="" />
+  </component>
+</project>

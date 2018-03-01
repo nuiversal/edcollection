@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//src/com=UTF-8
+encoding//src/com/example/lamemp3=UTF-8
+encoding//src/com/example/lamemp3/MP3Recorder.java=UTF-8
+encoding//src/com/example/lamemp3/RecorderAndPlayUtil.java=UTF-8
+encoding//src/com/example/lamemp3/StorageUtil.java=UTF-8
+encoding//src/com/winway/android/media=UTF-8
+encoding//src/com/winway/android/media/photo/photoselector/controller/AlbumController.java=GBK
+encoding//src/com/winway/android/media/photo/photoselector/domain/PhotoSelectorDomain.java=GBK
+encoding//src/com/winway/android/media/photo/photoselector/ui/AlbumItem.java=GBK
+encoding//src/com/winway/android/media/photo/photoselector/ui/BasePhotoPreviewActivity.java=GBK
+encoding//src/com/winway/android/media/photo/polites/GestureImageViewListener.java=UTF-8
+encoding/<project>=UTF-8
+encoding/res=UTF-8

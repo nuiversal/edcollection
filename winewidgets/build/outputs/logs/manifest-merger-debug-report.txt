@@ -1,0 +1,57 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:3:5-42
+		INJECTED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml
+		INJECTED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml
+		INJECTED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml
+		INJECTED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		ADDED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:8:9-35
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:12:22-73
+uses-permission#android.permission.INTERNET
+ADDED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:13:5-66
+	android:name
+		ADDED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:13:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:14:2-77
+	android:name
+		ADDED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:14:19-75
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:15:2-80
+	android:name
+		ADDED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:15:19-78
+application
+ADDED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:16:9-22:23
+	android:label
+		ADDED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:19:13-45
+	android:allowBackup
+		ADDED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:17:13-39
+	android:theme
+		ADDED from /Users/Smile/edcollection/winewidgets/AndroidManifest.xml:20:13-44

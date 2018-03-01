@@ -1,0 +1,258 @@
+[
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/res_button_default_press.xml",
+        "source": "/Users/Smile/edcollection/win-android-res/build/intermediates/bundles/debug/res/drawable/res_button_default_press.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/selector_tab.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/selector_tab.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/btn_blue.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/btn_blue.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/btn_login_selector.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/btn_login_selector.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/button_default.xml",
+        "source": "/Users/Smile/edcollection/basicbusiness/build/intermediates/bundles/debug/res/drawable/button_default.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/switch_bg.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/switch_bg.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/btn_radius_white_selector.xml",
+        "source": "/Users/Smile/edcollection/win-android-map/build/intermediates/bundles/debug/res/drawable/btn_radius_white_selector.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/border_black.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/border_black.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/button_search.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/drawable/button_search.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/underline_tab.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/underline_tab.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/border_line_bg.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/border_line_bg.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/switch_selector.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/switch_selector.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/res_button_default.xml",
+        "source": "/Users/Smile/edcollection/win-android-res/build/intermediates/bundles/debug/res/drawable/res_button_default.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/listview_line.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/listview_line.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/bg_back_arrow_white_selector.xml",
+        "source": "/Users/Smile/edcollection/winmedia/build/intermediates/bundles/debug/res/drawable/bg_back_arrow_white_selector.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/nfc_dialog_bg.xml",
+        "source": "/Users/Smile/edcollection/winsensor/build/intermediates/bundles/debug/res/drawable/nfc_dialog_bg.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/switch_off.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/switch_off.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/loading_anim.xml",
+        "source": "/Users/Smile/edcollection/win-android-res/build/intermediates/bundles/debug/res/drawable/loading_anim.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/content_bg_input_ok_f.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/content_bg_input_ok_f.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/layout_right_boder.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/layout_right_boder.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/button_login.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/drawable/button_login.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/radius_white_d.xml",
+        "source": "/Users/Smile/edcollection/win-android-map/build/intermediates/bundles/debug/res/drawable/radius_white_d.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/checkbox_style.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/checkbox_style.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/layout_left_boder.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/layout_left_boder.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/button_vr_image_show.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/button_vr_image_show.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/radius_white.xml",
+        "source": "/Users/Smile/edcollection/win-android-map/build/intermediates/bundles/debug/res/drawable/radius_white.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/radius_bttom_d.xml",
+        "source": "/Users/Smile/edcollection/win-android-map/build/intermediates/bundles/debug/res/drawable/radius_bttom_d.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/selected_ic_change.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/selected_ic_change.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/chech_box_bg.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/drawable/chech_box_bg.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/border_sence_photo_bg.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/border_sence_photo_bg.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/btn_camera_selector.xml",
+        "source": "/Users/Smile/edcollection/winmedia/build/intermediates/bundles/debug/res/drawable/btn_camera_selector.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/border_line_padding.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/border_line_padding.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/border.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/drawable/border.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/btn_checkbox_selector.xml",
+        "source": "/Users/Smile/edcollection/winmedia/build/intermediates/bundles/debug/res/drawable/btn_checkbox_selector.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/btn_black_textcolor_selector.xml",
+        "source": "/Users/Smile/edcollection/winmedia/build/intermediates/bundles/debug/res/drawable/btn_black_textcolor_selector.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/ic_launcher.png",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/dialog_nameingconventions_backgroud.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/dialog_nameingconventions_backgroud.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/bg_dark_selector.xml",
+        "source": "/Users/Smile/edcollection/winmedia/build/intermediates/bundles/debug/res/drawable/bg_dark_selector.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/content_bg.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/content_bg.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/img_bg_selector.xml",
+        "source": "/Users/Smile/edcollection/win-android-map/build/intermediates/bundles/debug/res/drawable/img_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/bg_btn_press.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/drawable/bg_btn_press.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/bg_btn_normal.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/drawable/bg_btn_normal.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/selector_img_bg.xml",
+        "source": "/Users/Smile/edcollection/win-android-map/build/intermediates/bundles/debug/res/drawable/selector_img_bg.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/radius_top_d.xml",
+        "source": "/Users/Smile/edcollection/win-android-map/build/intermediates/bundles/debug/res/drawable/radius_top_d.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/btn_selecter.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/drawable/btn_selecter.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/btn_green_selector_rectangle.xml",
+        "source": "/Users/Smile/edcollection/winmedia/build/intermediates/bundles/debug/res/drawable/btn_green_selector_rectangle.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/btn_back_selector.xml",
+        "source": "/Users/Smile/edcollection/winmedia/build/intermediates/bundles/debug/res/drawable/btn_back_selector.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/bg_svprogressfault.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/drawable/bg_svprogressfault.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/content_bg_input_ok.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/content_bg_input_ok.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/btn_radius_bottom_selector.xml",
+        "source": "/Users/Smile/edcollection/win-android-map/build/intermediates/bundles/debug/res/drawable/btn_radius_bottom_selector.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/radius_bttom.xml",
+        "source": "/Users/Smile/edcollection/win-android-map/build/intermediates/bundles/debug/res/drawable/radius_bttom.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/border_line_white_bg.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/border_line_white_bg.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/content_bg_input.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/content_bg_input.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/layout_boder.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/layout_boder.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/button_default_selecter.xml",
+        "source": "/Users/Smile/edcollection/win-android-res/build/intermediates/bundles/debug/res/drawable/button_default_selecter.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/radius_top.xml",
+        "source": "/Users/Smile/edcollection/win-android-map/build/intermediates/bundles/debug/res/drawable/radius_top.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/btn_blue_text_white_bg.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/btn_blue_text_white_bg.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/layout_ground_boder.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/layout_ground_boder.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/solid_border_section.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/solid_border_section.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/switch_on.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/switch_on.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/btn_radius_top_selector.xml",
+        "source": "/Users/Smile/edcollection/win-android-map/build/intermediates/bundles/debug/res/drawable/btn_radius_top_selector.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/list_item_selector.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/list_item_selector.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/round_bg_white.xml",
+        "source": "/Users/Smile/edcollection/winmedia/build/intermediates/bundles/debug/res/drawable/round_bg_white.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/drawable/btn_namingconventions_bg.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/drawable/btn_namingconventions_bg.xml"
+    }
+]

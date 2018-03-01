@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:edcollection="http://schemas.android.com/apk/res/com.winway.android.edcollection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.winway.android.edcollection.base.widgets.HeadComponent
+            android:id="@+id/hc_transformer_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            edcollection:headTitle="@string/transformer_title"
+            edcollection:isShowOk="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/ll_transformer_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical" >
+
+                    <include
+                        android:id="@+id/include_substation_link"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        layout="@layout/link_device" />
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_transformer_deviceName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/deviceName" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_transformer_maintenanceDepartment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/tower_maintenanceDepartment" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+   
+                    <com.winway.android.ewidgets.input.InputSelectComponent
+                        android:id="@+id/inSelCom_transformer_voltage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputSelect_hint="@string/input"
+                        edcollection:ewidget_inputSelect_title="@string/sub_voltage" />
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_transformer_runningStatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/tower_runningStatus" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_transformer_stationHouse"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/stationHouse" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_transformer_space"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/space" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_transformer_equipmentModel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/equipmentModel" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_transformer_ratedCapacity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="true"
+                        edcollection:ewidget_inputCom_title="@string/ratedCapacity"
+                        edcollection:ewidget_inputCom_unit="KVA" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_transformer_propertyRights"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/tower_propertyRights" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_transformer_commissioningDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/tower_commissioningDate" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_transformer_manufacturer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/tower_manufacturer" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_transformer_manufacturingNum"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/tower_manufacturingNumber" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_transformer_userImportantGrade"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/userImportantGrade" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_transformer_agMark"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/zgMark" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_transformer_customerName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/customerName" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_transformer_customerNum"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/customerNumber" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_transformer_noLoadCurrent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="true"
+                        edcollection:ewidget_inputCom_title="@string/noLoadCurrent"
+                        edcollection:ewidget_inputCom_unit="A" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_transformer_noLoadLoss"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="true"
+                        edcollection:ewidget_inputCom_title="@string/noLoadLoss"
+                        edcollection:ewidget_inputCom_unit="KW" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_transformer_loadLoss"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="true"
+                        edcollection:ewidget_inputCom_title="@string/loadLoss"
+                        edcollection:ewidget_inputCom_unit="KW" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_transformer_remarks"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/tower_remarks" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+                </LinearLayout>
+            </ScrollView>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="2"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/ll_tower_takephoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <com.winway.android.ewidgets.attachment.AttachmentView
+                        android:id="@+id/av_transformer_attachment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF" >
+                    </com.winway.android.ewidgets.attachment.AttachmentView>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

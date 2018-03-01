@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:edcollection="http://schemas.android.com/apk/res/com.winway.android.edcollection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white">
+
+    <com.winway.android.edcollection.base.widgets.HeadComponent
+        android:id="@+id/hc_marker_collect_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        edcollection:headTitle="@string/rtkrealtimedata"
+        edcollection:isShowOk="false" 
+        edcollection:isShowReturn="false"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.winway.android.ewidgets.input.InputComponent
+            android:id="@+id/inCon_rtk_longitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            edcollection:ewidget_inputCom_isShowUnit="false"
+            edcollection:ewidget_inputCom_title="@string/longitude" 
+            edcollection:ewidget_inputCom_isShowClearIcon="false">
+        </com.winway.android.ewidgets.input.InputComponent>
+
+        <com.winway.android.ewidgets.input.InputComponent
+            android:id="@+id/inCon_rtk_latitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            edcollection:ewidget_inputCom_isShowUnit="false"
+            edcollection:ewidget_inputCom_title="@string/latitude" 
+            edcollection:ewidget_inputCom_isShowClearIcon="false">
+        </com.winway.android.ewidgets.input.InputComponent>
+
+        <com.winway.android.ewidgets.input.InputComponent
+            android:id="@+id/inCon_rtk_altitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            edcollection:ewidget_inputCom_isShowUnit="false"
+            edcollection:ewidget_inputCom_title="@string/altitude" 
+            edcollection:ewidget_inputCom_isShowClearIcon="false">
+        </com.winway.android.ewidgets.input.InputComponent>
+
+        <com.winway.android.ewidgets.input.InputComponent
+            android:id="@+id/inCon_rtk_gpsState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            edcollection:ewidget_inputCom_isShowUnit="false"
+            edcollection:ewidget_inputCom_title="@string/gpsstate" 
+            edcollection:ewidget_inputCom_isShowClearIcon="false">
+        </com.winway.android.ewidgets.input.InputComponent>
+
+        <com.winway.android.ewidgets.input.InputComponent
+            android:id="@+id/inCon_rtk_satellites"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            edcollection:ewidget_inputCom_isShowUnit="false"
+            edcollection:ewidget_inputCom_title="@string/satellites" 
+            edcollection:ewidget_inputCom_isShowClearIcon="false">
+        </com.winway.android.ewidgets.input.InputComponent>
+
+        <com.winway.android.ewidgets.input.InputComponent
+            android:id="@+id/inCon_rtk_hdop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            edcollection:ewidget_inputCom_isShowUnit="false"
+            edcollection:ewidget_inputCom_title="@string/hdop"
+            edcollection:ewidget_inputCom_isShowClearIcon="false" >
+        </com.winway.android.ewidgets.input.InputComponent>
+
+        <Button
+            android:id="@+id/btn_rkt_ok"
+            style="@style/text_Size18_color_ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_blue"
+            android:gravity="center_vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="5dp"
+            android:text="@string/ok" 
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

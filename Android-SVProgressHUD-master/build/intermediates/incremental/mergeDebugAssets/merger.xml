@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/Smile/edcollection/Android-SVProgressHUD-master/assets"/><source path="/Users/Smile/edcollection/Android-SVProgressHUD-master/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/Smile/edcollection/Android-SVProgressHUD-master/build-types/debug/assets"/></dataSet></merger>

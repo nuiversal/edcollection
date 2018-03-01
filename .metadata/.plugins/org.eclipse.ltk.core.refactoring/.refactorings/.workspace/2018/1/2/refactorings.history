@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 3 resources" deleteContents="false" description="Delete 3 resources" element1="/win-android-sensor/project.properties.mine" element2="/win-android-sensor/project.properties.r1223" element3="/win-android-sensor/project.properties.r1231" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="3" stamp="1515565435036"/>
+</session>

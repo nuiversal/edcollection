@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/anim/res_in_righttoleft.xml",
+        "source": "/Users/Smile/edcollection/basicbusiness/build/intermediates/bundles/debug/res/anim/res_in_righttoleft.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/anim/translate_up.xml",
+        "source": "/Users/Smile/edcollection/winmedia/build/intermediates/bundles/debug/res/anim/translate_up.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/anim/dialog_enter.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/anim/dialog_enter.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/anim/res_out_toptobottom.xml",
+        "source": "/Users/Smile/edcollection/basicbusiness/build/intermediates/bundles/debug/res/anim/res_out_toptobottom.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/anim/translate_down_current.xml",
+        "source": "/Users/Smile/edcollection/winmedia/build/intermediates/bundles/debug/res/anim/translate_down_current.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/anim/loading_dialog_progressbar.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/anim/loading_dialog_progressbar.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/anim/res_in_lefttoright.xml",
+        "source": "/Users/Smile/edcollection/basicbusiness/build/intermediates/bundles/debug/res/anim/res_in_lefttoright.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/anim/res_out_righttoleft.xml",
+        "source": "/Users/Smile/edcollection/basicbusiness/build/intermediates/bundles/debug/res/anim/res_out_righttoleft.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/anim/translate_down.xml",
+        "source": "/Users/Smile/edcollection/winmedia/build/intermediates/bundles/debug/res/anim/translate_down.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/anim/dialog_exit.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/anim/dialog_exit.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/anim/activity_alpha_action_in.xml",
+        "source": "/Users/Smile/edcollection/winmedia/build/intermediates/bundles/debug/res/anim/activity_alpha_action_in.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/anim/anticipate.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/anim/anticipate.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/anim/res_out_lefttoright.xml",
+        "source": "/Users/Smile/edcollection/basicbusiness/build/intermediates/bundles/debug/res/anim/res_out_lefttoright.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/anim/pb_default.xml",
+        "source": "/Users/Smile/edcollection/winmedia/build/intermediates/bundles/debug/res/anim/pb_default.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/anim/res_in_bottomtotop.xml",
+        "source": "/Users/Smile/edcollection/basicbusiness/build/intermediates/bundles/debug/res/anim/res_in_bottomtotop.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/anim/translate_up_current.xml",
+        "source": "/Users/Smile/edcollection/winmedia/build/intermediates/bundles/debug/res/anim/translate_up_current.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/anim/overshoot.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/anim/overshoot.xml"
+    }
+]

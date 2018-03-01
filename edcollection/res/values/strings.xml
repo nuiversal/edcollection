@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">电缆普查标识工程项目管控系统</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_username">账    号：</string>
+    <string name="login_password">密    码：</string>
+    <string name="login_checkcode">验证码：</string>
+    <string name="login_username_hint">请输入账号</string>
+    <string name="login_password_hint">请输入密码</string>
+    <string name="login_checkcode_hint">请输入验证码</string>
+    <string name="login_btn_login">登录</string>
+    <string name="input_hint">输入</string>
+    <string name="drop_hint">下拉选择</string>
+    <string name="drop_hint_or_input">下拉选择或输入</string>
+    <string name="empty"></string>
+
+    <!-- 主界面开始 -->
+    <string name="tab_new">新增</string>
+    <string name="tab_link">编辑</string>
+    <string name="tab_collected">已采</string>
+    <string name="tab_tasklist">任务</string>
+    <string name="tab_taskdamage">隐患</string>
+    <string name="tab_setting">设置</string>
+
+    <!-- 主界面结束 -->
+
+
+    <!-- 确定、返回 -->
+    <string name="sure">确定</string>
+    <string name="returns">返回</string>
+
+    <!-- 设置 -->
+    <string name="setting">设置</string>
+    <string name="synchrodata">同步数据</string>
+    <string name="uploadPhoto">上传附件</string>
+    <string name="updateParams">更新数据字典</string>
+    <string name="RTK">RTK</string>
+    <string name="bluetooth">蓝牙</string>
+    <string name="about">关于我们</string>
+    <!-- 当前项目 -->
+    <string name="projecting">当前项目</string>
+    <string name="cancel">返回</string>
+    <string name="confirm">确定</string>
+    <string name="chooseProName">请选择当前项目名称</string>
+    <!-- 采集信息 -->
+    <string name="collection_info">采集信息</string>
+    <string name="basic_info">基本信息</string>
+    <string name="laying_ditch">同沟信息</string>
+    <string name="scene_photo">其他信息</string>
+    <!-- 标识器基本信息界面 -->
+    <string name="marker_type">标识类型</string>
+    <string name="marker_ball">标识球</string>
+    <string name="marker_mail">标识钉</string>
+    <string name="xnd">虚拟点</string>
+    <string name="gt">杆塔</string>
+    <string name="marker_id">标识器ID号</string>
+    <string name="receive">接收</string>
+    <string name="ok">确定</string>
+    <string name="map">地图</string>
+    <string name="longitude">经度</string>
+    <string name="latitude">纬度</string>
+    <string name="rtkrealtimedata">RTK实时数据</string>
+    <string name="gps">坐标编号</string>
+    <string name="input">输入</string>
+    <string name="input_noneed">无需用户输入</string>
+    <string name="install_path">安装位置</string>
+    <string name="lately_install">输入或选择最近安装</string>
+    <string name="geography_pos">地理位置</string>
+    <string name="networking">联网获取</string>
+    <string name="feature">特征点</string>
+    <string name="choose">选择</string>
+    <string name="size">管块尺寸</string>
+    <string name="cable_width">电缆沟(槽)宽度</string>
+    <string name="cable_deepth">电缆沟(槽)深度</string>
+    <string name="sizes">长*宽</string>
+    <string name="floot_height">沟底到地面高度</string>
+    <string name="altitude">高程</string>
+    <string name="gpsstate">定位状态</string>
+    <string name="satellites">卫星数量</string>
+    <string name="hdop">水平精度因子</string>
+    <string name="marker_height">标识器到地面高度</string>
+    <string name="describe">设备描述</string>
+    <string name="choose_lately">输入或选择最近</string>
+    <string name="other">其他</string>
+    <string name="substation">变电站</string>
+    <string name="tower">杆塔</string>
+    <string name="transformer">变压器</string>
+    <string name="power_room">配电室、房</string>
+    <string name="well">工井</string>
+    <string name="cabinet_or_box">环网柜/分接箱</string>
+    <string name="device_type">设备类型</string>
+    <string name="box">分接箱</string>
+    <string name="cabinet">环网柜</string>
+    <string name="device_name">设备全称</string>
+    <string name="loop_total">回路总数</string>
+
+    <!-- 线路名称 -->
+    <string name="line_name_title">线路名称</string>
+    <string name="line_name_cableInfo">电缆信息</string>
+    <string name="line_name_lineName">线路名称</string>
+    <string name="line_name_lineNo">序号</string>
+    <string name="line_name_layTyape">通道类型</string>
+    <string name="line_name_layTyape_hint">顶管</string>
+    <string name="line_name_accessory">同沟附件</string>
+
+    <!-- 同沟信息 -->
+    <string name="laying_ditch_lineName">线路名称</string>
+    <string name="laying_ditch_lineNo">序号</string>
+    <string name="laying_ditch_layTyape">通道类型</string>
+    <string name="laying_ditch_accessory">同沟电缆列表</string>
+    <string name="laying_ditch_loopNum">同沟回路数</string>
+    <string name="laying_ditch_loopNum_i">输入</string>
+    <string name="laying_ditch_add">添加</string>
+
+    <!-- 电缆中间接头 -->
+    <string name="intermediate_head_title">电缆中间接头</string>
+    <string name="intermediate_head_equipmentName">设备名称</string>
+    <string name="intermediate_head_equipmentName_hint">如：10kV发放线电缆中间接头</string>
+    <string name="intermediate_head_layType">敷设方式</string>
+    <string name="intermediate_head_unitType">设备型号</string>
+    <string name="intermediate_head_feature">工艺特征</string>
+    <string name="intermediate_head_factory">生产厂家</string>
+    <string name="intermediate_head_crateDate">生产日期</string>
+    <string name="intermediate_head_operationDate">投运日期</string>
+    <string name="intermediate_head_install">安装单位</string>
+    <string name="intermediate_head_worker">施工员</string>
+    <string name="intermediate_head_type">类型</string>
+    <string name="intermediate_head_phone">厂家联系方式</string>
+    <string name="intermediate_head_fault">中间接头故障情况</string>
+    <string name="intermediate_head_patrolDate">上次巡检日期</string>
+    <string name="intermediate_head_ampacity">电缆载流量</string>
+    <string name="intermediate_head_temperature">中间接头温度</string>
+    <string name="intermediate_head_groundCurrent">接地电流情况</string>
+
+    <!-- 杆塔 -->
+    <string name="tower_title">杆塔</string>
+    <string name="tower_runningStatus">运行状态</string>
+    <string name="tower_createTime">创建时间</string>
+    <string name="tower_updateTime">更新时间</string>
+    <string name="tower_towerNo">杆塔编号</string>
+    <string name="tower_maintenanceDepartment">维护部门</string>
+    <string name="tower_propertyRights">产权性质</string>
+    <string name="tower_commissioningDate">投运日期</string>
+    <string name="tower_manufacturer">生产厂家</string>
+    <string name="tower_equipmentModel">设备型号</string>
+    <string name="tower_manufacturingNumber">出厂编号</string>
+    <string name="tower_accomplishDate">出厂日期</string>
+    <string name="tower_material">杆塔材质</string>
+    <string name="tower_cornerDegree">转角度数</string>
+    <string name="tower_height">杆塔全高</string>
+    <string name="tower_remarks">备注</string>
+
+    <!-- 标签 -->
+    <string name="lable_title">标签</string>
+    <string name="lable_id">标签ID</string>
+    <string name="lable_id_hint">标签ID</string>
+    <string name="lable_bind_target">绑扎对象</string>
+    <string name="able_bind_sequence">安装序号</string>
+    <string name="lable_distance">与上一个标签的距离</string>
+    <string name="lable_zjgjfx">最近工井方向</string>
+    <string name="lable_jzjgjjl">距最近工井距离</string>
+    <string name="lable_fsssqk">附属设施情况</string>
+    <string name="lable_wzdt">位置地图</string>
+    <string name="lable_zwtdfbqk">周围通道分布情况</string>
+    <string name="lable_tdndlqk">通道内电缆情况</string>
+    <string name="lable_dblkxx">地标路口信息</string>
+    <string name="lable_dxxh">对象型号</string>
+    <string name="lable_dxcd">对象长度</string>
+
+    <!-- 变压器 -->
+    <string name="transformer_title">变压器 </string>
+    <string name="deviceName"> 设备名称</string>
+    <string name="stationHouse"> 所属站房</string>
+    <string name="space">所属间隔 </string>
+    <string name="equipmentModel">设备型号 </string>
+    <string name="ratedCapacity"> 额定容量</string>
+    <string name="userImportantGrade"> 用户重要等级</string>
+    <string name="zgMark">专/公标志 </string>
+    <string name="customerName"> 客户名称</string>
+    <string name="customerNumber">客户编号</string>
+    <string name="noLoadCurrent">空载电流</string>
+    <string name="noLoadLoss">空载损耗</string>
+    <string name="loadLoss">负载损耗</string>
+
+    <!-- 工井 -->
+    <string name="work_well_title">工井</string>
+    <string name="work_well_describe">断面描述</string>
+    <string name="work_well_describe_hint">如：东面</string>
+    <string name="work_well_norms">规格</string>
+    <string name="work_well_norms_hint">长*宽*高</string>
+    <string name="work_well_ply">盖板厚度</string>
+    <string name="work_well_lumps">盖板块数</string>
+    <string name="work_well_length">长</string>
+    <string name="work_well_width">宽</string>
+    <string name="work_well_dlldjl">电缆离地面距离</string>
+    <string name="work_well_dlljdjl">电缆离井底距离</string>
+    <string name="work_well_dllzcjl">电缆离左侧距离</string>
+    <string name="work_well_dllycjl">电缆离右侧距离</string>
+    <string name="work_well_gjcd">工井长度</string>
+    <string name="work_well_gjkd">工井宽度</string>
+    <string name="work_well_gjsd">工井深度</string>
+
+    <!-- 变电站 -->
+    <string name="sub_voltage">电压等级(kV)</string>
+    <string name="sub_no">变电站编号</string>
+    <string name="sub_name">变电站名称</string>
+    <string name="sub_rightPro">产权属性</string>
+
+    <!-- 配电房 -->
+    <string name="name">名称</string>
+    <string name="geoLocation">地理位置</string>
+
+    <!-- 开关站 -->
+    <string name="switch_station">开关站</string>
+    <string name="switch_station_city">所属地市</string>
+    <string name="switch_station_operation_unit">运维单位</string>
+    <string name="switch_station_running_no">运行编号</string>
+    <string name="switch_station_sfznbdz">是否智能变电站</string>
+    <string name="switch_station_byjcxjgs">备用进出线间隔数</string>
+    <string name="switch_station_fwfs">防误方式</string>
+    <string name="switch_station_dzzsjb">电站重要级别</string>
+    <string name="switch_station_sfdw">是否代维</string>
+    <string name="switch_station_sfnw">是否农网</string>
+    <string name="switch_station_zbfs">值班方式</string>
+    <string name="switch_station_bzfs">布置方式</string>
+    <string name="switch_station_wsdj">污秽等级</string>
+    <string name="switch_station_gcbh">工程编号</string>
+    <string name="switch_station_gcmc">工程名称</string>
+
+    <!-- 电缆沟 -->
+    <string name="dlg_title">电缆沟</string>
+    <string name="dlg_dlgbh">电缆沟编号</string>
+    <string name="dlg_ssds">所属地市</string>
+    <string name="dlg_ywdw">运维单位</string>
+    <string name="dlg_whbz">维护班组</string>
+    <string name="dlg_zcxz">资产性质</string>
+    <string name="dlg_zcdw">资产单位</string>
+    <string name="dlg_zcbh">资产编号</string>
+    <string name="dlg_tyrq">投运日期</string>
+    <string name="dlg_sbzt">设备状态</string>
+    <string name="dlg_dqtz">地区特征</string>
+    <string name="dlg_dmcc">断面尺寸</string>
+    <string name="dlg_dlgcd">电缆沟长度</string>
+    <string name="dlg_dlgbgsl">电缆沟盖板数量</string>
+    <string name="dlg_gbcz">盖板材质</string>
+    <string name="dlg_sgdw">施工单位</string>
+    <string name="dlg_jgrq">峻工日期</string>
+    <string name="dlg_tzbh">图纸编号</string>
+    <string name="dlg_sszrq">所属责任区</string>
+    <string name="dlg_zyfl">专业分类</string>
+    <string name="dlg_bz">备注</string>
+
+    <!-- 电缆管道 -->
+    <string name="dlgd_title">电缆沟道</string>
+    <string name="dlgd_mbmc">模板名称</string>
+    <string name="dlgd_row">行数</string>
+    <string name="dlgd_col">列数</string>
+    <string name="dlgd_gdbh">管道编号</string>
+    <string name="dlgd_ssds">所属地市</string>
+    <string name="dlgd_ywdw">运维单位</string>
+    <string name="dlgd_whbz">维护班组</string>
+    <string name="dlgd_zcxz">资产性质</string>
+    <string name="dlgd_zcdw">资产单位</string>
+    <string name="dlgd_dqtz">地区特征</string>
+    <string name="dlgd_sbzt">设备状态</string>
+    <string name="dlgd_tyrq">投运日期</string>
+    <string name="dlgd_damc">档案名称</string>
+    <string name="dlgd_jmlx">截面类型</string>
+    <string name="dlgd_cl">材料</string>
+    <string name="dlgd_gj">管径</string>
+    <string name="dlgd_gdcd">管道长度</string>
+    <string name="dlgd_cgsl">穿管数量</string>
+    <string name="dlgd_jsl">井数量</string>
+    <string name="dlgd_gdlx">管道类型</string>
+    <string name="dlgd_sgdw">施工单位</string>
+    <string name="dlgd_sgfs">施工方式</string>
+    <string name="dlgd_jgrq">峻工日期</string>
+    <string name="dlgd_tzbh">图纸编号</string>
+    <string name="dlgd_zyfl">专业分类</string>
+    <string name="dlgd_gdrl">管道容量</string>
+    <string name="dlgd_bz">备注</string>
+
+    <!-- 电缆隧道 -->
+    <string name="dlsd_title">电缆隧道</string>
+    <string name="dlsd_sdbh">隧道编号</string>
+    <string name="dlsd_ssds">所属地市</string>
+    <string name="dlsd_ywdw">运维单位</string>
+    <string name="dlsd_whbz">维护班组</string>
+    <string name="dlsd_sbzt">设备状态</string>
+    <string name="dlsd_zcxz">资产性质</string>
+    <string name="dlsd_zcdw">资产单位</string>
+    <string name="dlsd_dqtz">地区特征</string>
+    <string name="dlsd_tyrq">投运日期</string>
+    <string name="dlsd_damc">档案名称</string>
+    <string name="dlsd_jgxs">结构型式</string>
+    <string name="dlsd_xgfs">悬挂方式</string>
+    <string name="dlsd_jmlx">截面类型</string>
+    <string name="dlsd_dmcc">断面尺寸</string>
+    <string name="dlsd_sdcd">隧道长度</string>
+    <string name="dlsd_jsl">井数量</string>
+    <string name="dlsd_sgdw">施工单位</string>
+    <string name="dlsd_sgfs">施工方式</string>
+    <string name="dlsd_jgrq">峻工日期</string>
+    <string name="dlsd_tzbh">图纸编号</string>
+    <string name="dlsd_zyfl">专业分类</string>
+    <string name="dlsd_sfazfhc">是否安装防火槽盒</string>
+    <string name="dlsd_sdrl">隧道容量</string>
+    <string name="dlsd_cgsl">穿管数量</string>
+    <string name="dlsd_bz">备注</string>
+
+    <!-- 电缆桥 -->
+    <string name="channel_dlq">电缆桥</string>
+    <string name="channel_dlq_whbz">维护班组</string>
+    <string name="channel_dlq_dqtz">地区特征</string>
+    <string name="channel_dlq_cz">材质</string>
+    <string name="channel_dlq_fhcl">防火材料</string>
+    <string name="channel_dlq_sgdw">施工单位</string>
+    <string name="channel_dlq_sgrq">施工日期</string>
+    <string name="channel_dlq_jgrq">峻工日期</string>
+    <string name="channel_dlq_zcxz">资产性质</string>
+    <string name="channel_dlq_zcdw">资产单位</string>
+    <string name="channel_dlq_zyfl">专业分类</string>
+    <string name="channel_dlq_sbzt">设备状态</string>
+
+    <!-- 低压配电箱 -->
+    <string name="dypdx_title">低压配电箱</string>
+    <string name="dypdx_sbid">设备标识</string>
+    <string name="dypdx_sbmc">设备名称</string>
+    <string name="dypdx_yxbh">运行编号</string>
+    <string name="dypdx_dxmpid">电系铭牌ID</string>
+    <string name="dypdx_dldj">电压等级</string>
+    <string name="dypdx_ssds">所属地市</string>
+    <string name="dypdx_ywdw">运维单位</string>
+    <string name="dypdx_whbz">维护班组</string>
+    <string name="dypdx_lx">类型</string>
+    <string name="dypdx_tyrq">投运日期</string>
+    <string name="dypdx_sbzt">设备状态</string>
+    <string name="dypdx_zcxz">资产性质</string>
+    <string name="dypdx_zcdw">资产单位</string>
+    <string name="dypdx_xh">型号</string>
+    <string name="dypdx_sccj">生产厂家</string>
+    <string name="dypdx_ccbh">出厂编号</string>
+    <string name="dypdx_ccrq">出厂日期</string>
+    <string name="dypdx_jddz">接地电阻</string>
+    <string name="dypdx_bz">备注</string>
+
+    <!-- 低压电缆分支箱 -->
+    <string name="dydlfzx_title">低压电缆分支箱</string>
+    <string name="dydlfzx_sbid">设备标识</string>
+    <string name="dydlfzx_sbmc">设备名称</string>
+    <string name="dydlfzx_yxbh">运行编号</string>
+    <string name="dydlfzx_dxmpid">电系铭牌ID</string>
+    <string name="dydlfzx_dldj">电压等级</string>
+    <string name="dydlfzx_ssds">所属地市</string>
+    <string name="dydlfzx_ywdw">运维单位</string>
+    <string name="dydlfzx_whbz">维护班组</string>
+    <string name="dydlfzx_sblx">设备类型</string>
+    <string name="dydlfzx_tyrq">投运日期</string>
+    <string name="dydlfzx_sbzt">设备状态</string>
+    <string name="dydlfzx_zcxz">资产性质</string>
+    <string name="dydlfzx_zcdw">资产单位</string>
+    <string name="dydlfzx_xh">型号</string>
+    <string name="dydlfzx_sccj">生产厂家</string>
+    <string name="dydlfzx_ccbh">出厂编号</string>
+    <string name="dydlfzx_ccrq">出厂日期</string>
+    <string name="dydlfzx_eddy">额定电压</string>
+    <string name="dydlfzx_eddl">额定电流</string>
+    <string name="dydlfzx_bz">备注</string>
+
+    <!-- 环网柜 -->
+    <string name="hwg_title">环网柜</string>
+    <string name="hwg_sbid">设备标识</string>
+    <string name="hwg_sbmc">设备名称</string>
+    <string name="hwg_yxbh">运行编号</string>
+    <string name="hwg_dxmpid">电系铭牌ID</string>
+    <string name="hwg_dldj">电压等级</string>
+    <string name="hwg_ssds">所属地市</string>
+    <string name="hwg_ywdw">运维单位</string>
+    <string name="hwg_whbz">维护班组</string>
+    <string name="hwg_sbzt">设备状态</string>
+    <string name="hwg_sfdw">是否代维</string>
+    <string name="hwg_sfnw">是否农网</string>
+    <string name="hwg_xh">型号</string>
+    <string name="hwg_sccj">生产厂家</string>
+    <string name="hwg_ccbh">出厂编号</string>
+    <string name="hwg_ccrq">出厂日期</string>
+    <string name="hwg_tyrq">投运日期</string>
+    <string name="hwg_jddz">接地电阻</string>
+    <string name="hwg_byjcxjgs">备用进出线间隔数</string>
+    <string name="hwg_zz">站址</string>
+    <string name="hwg_dqtz">地区特征</string>
+    <string name="hwg_zycd">重要程度</string>
+    <string name="hwg_zcxz">资产性质</string>
+    <string name="hwg_zcdw">资产单位</string>
+    <string name="hwg_gcbh">工程编号</string>
+    <string name="hwg_gcmc">工程名称</string>
+    <string name="hwg_sbzjfs">设备增加方式</string>
+    <string name="hwg_bz">备注</string>
+
+    <!-- 电缆分支箱 -->
+    <string name="dlfzx_title">电缆分支箱</string>
+    <string name="dlfzx_sbid">设备标识</string>
+    <string name="dlfzx_sbmc">设备名称</string>
+    <string name="dlfzx_yxbh">运行编号</string>
+    <string name="dlfzx_dxmpid">电系铭牌ID</string>
+    <string name="dlfzx_dldj">电压等级</string>
+    <string name="dlfzx_ssds">所属地市</string>
+    <string name="dlfzx_ywdw">运维单位</string>
+    <string name="dlfzx_whbz">维护班组</string>
+    <string name="dlfzx_sbzt">设备状态</string>
+    <string name="dlfzx_sfdw">是否代维</string>
+    <string name="dlfzx_sfnw">是否农网</string>
+    <string name="dlfzx_lx">类型</string>
+    <string name="dlfzx_xh">型号</string>
+    <string name="dlfzx_sccj">生产厂家</string>
+    <string name="dlfzx_ccbh">出厂编号</string>
+    <string name="dlfzx_ccrq">出厂日期</string>
+    <string name="dlfzx_tyrq">投运日期</string>
+    <string name="dlfzx_jddz">接地电阻</string>
+    <string name="dlfzx_zz">站址</string>
+    <string name="dlfzx_dqtz">地区特征</string>
+    <string name="dlfzx_zycd">重要程度</string>
+    <string name="dlfzx_zcxz">资产性质</string>
+    <string name="dlfzx_zcdw">资产单位</string>
+    <string name="dlfzx_gcbh">工程编号</string>
+    <string name="dlfzx_gcmc">工程名称</string>
+    <string name="dlfzx_sbzjfs">设备增加方式</string>
+    <string name="dlfzx_bz">备注</string>
+
+    <!-- 电缆直埋 -->
+    <string name="channel_dlzm">电缆直埋</string>
+    <!-- 电缆槽 -->
+    <string name="channel_dlc">电缆槽</string>
+    <!-- 架空 -->
+    <string name="channel_jk">架空</string>
+
+    <!-- 配电室 -->
+    <string name="channel_pds">配电室</string>
+    <string name="channel_pds_sbbs">设备标识</string>
+    <string name="channel_pds_pbts">配变台数</string>
+    <string name="channel_pds_pbzrl">配变总容量</string>
+    <string name="channel_pds_wgbcrl">无功补偿容量</string>
+    <string name="channel_pds_fwfs">防误方式</string>
+    <string name="channel_pds_sfdljzw">是否独立建筑物</string>
+    <string name="channel_pds_sfdxz">是否地下站</string>
+    <string name="channel_pds_jddz">接地电阻</string>
+    <string name="channel_pds_zz">站址</string>
+    <string name="channel_pds_zycd">重要程度</string>
+
+    <!-- 箱式变电站 -->
+    <string name="xsbdz">箱式变电站</string>
+    <string name="xsbdz_xblx">箱变类型</string>
+    <string name="xsbdz_sfjyhwg">是否具有环网</string>
+
+    <!-- 工井 -->
+    <string name="gj_dmxx">断面信息</string>
+    <string name="gj_sszrq">所属责任区</string>
+    <string name="gj_gjxz">工井形状</string>
+    <string name="gj_jwz">井位置</string>
+    <string name="gj_jlx">井类型</string>
+    <string name="gj_jg">结构</string>
+    <string name="gj_jmgc">井面高程</string>
+    <string name="gj_ndgc">内底高程</string>
+    <string name="gj_jcc">井尺寸</string>
+    <string name="gj_jgxz">井盖形状</string>
+    <string name="gj_jgcc">井盖尺寸</string>
+    <string name="gj_jgcz">井盖材质</string>
+    <string name="gj_jgsccj">井盖生产厂家</string>
+    <string name="gj_jgccrq">井盖出厂日期</string>
+    <string name="gj_ptcs">平台层数</string>
+    <string name="gj_sgdw">施工单位</string>
+    <string name="gj_sgrq">施工日期 	</string>
+    <string name="gj_jgrq">峻工日期</string>
+    <string name="gj_tzbh">图纸编号</string>
+    <string name="gj_zcxz">资产性质</string>
+    <string name="gj_zcdw">资产单位</string>
+    <string name="gj_zcbh">资产编号</string>
+    <string name="gj_zyfl">专业分类</string>
+    <string name="gj_bz">备注</string>
+
+    <!-- 通道关联设备表 -->
+    <string name="channel_syrl">剩余容量</string>
+    <string name="channel_zrl">总容量</string>
+    <string name="channel_mc">通道名称</string>
+    <string name="channel_zt">通道状态</string>
+    <string name="channel_dydj">电压等级</string>
+    <string name="channel_sszrq">所属责任区</string>
+    <string name="channel_yxdw">运行单位</string>
+    <string name="channel_qdsbbh">起点设备编号</string>
+    <string name="channel_zdsbbh">终点设备编号</string>
+    <string name="channel_tdcd">通道长度</string>
+    <string name="channel_tdkd">通道宽度</string>
+    <string name="channel_tdsd">通道深度</string>
+    <string name="channel_tdcz">通道材质</string>
+    <string name="channel_tdlx">通道类型</string>
+
+    <!-- 通道命名规范 -->
+    <string name="namingconventions_xzq">行政区</string>
+    <string name="namingconventions_dlm">道路名</string>
+    <string name="namingconventions_tdlx">通道类型</string>
+    <string name="namingconventions_d">段</string>
+    <!-- 井盖采集 -->
+    <string name="jg_title">井盖</string>
+    <string name="jg_add">添加</string>
+    <string name="jg_xh">序号</string>
+    <string name="jg_sbmc">设备名称</string>
+    <string name="jg_ssgj">所属工井</string>
+    <string name="jg_sfxtzcz">是否系统中存在</string>
+    <string name="jg_ywdw">运维单位</string>
+    <string name="jg_whbz">维护班组</string>
+    <string name="jg_sszrq">所属责任区</string>
+    <string name="jg_jgcd">井盖长度</string>
+    <string name="jg_jgkd">井盖宽度</string>
+    <string name="jg_jghd">井盖厚度</string>
+    <string name="jg_bz">备注</string>
+    <string name="jg_jglb">井盖列表</string>
+
+    <!-- 通道截面 -->
+    <string name="jm_sstd">所属通道：</string>
+    <string name="jm_jmmc">截面名称：</string>
+    <string name="jm_jmjd">截面角度：</string>
+    <string name="jm_wgfz">网格辅助(空管)</string>
+    <string name="jm_wgfz_unknow_line">网格辅助(未知线路)</string>
+    <string name="jm_zjzj">增加支架</string>
+    <string name="jm_qxzj">取消支架</string>
+    <string name="jm_open_lp">罗盘操作</string>
+    <string name="workwell_name_method">工井命名方式：行政区-道路名-方向-通道类型-顺序编号#井。
+	    								例如：西城区-北辰路-西-隧道-10#井。新增井命名方式：行政区-道路名-方向-通道类型-顺序编号-编号#井。
+	    								例如：朝阳区-黄寺站内-东-隧道-7-1#井（7号井与8号井之间新增井口）。</string>
+    <string name="workwell_name_principle">命名定义原则
+	（1）行政区域：命名中涉及到的“行政区域”指地图中具体的行政区名称。
+	（2）道路名：命名中涉及到的“道路名”指地图中具体的道路或街道名称。
+	（3）地标名：指地理位置中的典型建筑物、桥梁等。</string>
+    <string name="channel_name_method">单条通道命名方式：行政区-道路名-方向-通道类型-顺序编号段。例如：西城区-北辰路-西-隧道-10段。
+同侧多条通道命名方式：行政区-道路名-方向（方向）-通道类型-顺序编号段。如在同侧方向新增一条通道，则原通道命名不变，新增通道采用同侧多条通道命名。例如：西城区-北辰路-西（西）-隧道-10段。
+无道路名称时命名方式：行政区-小区名/标志性建筑-方向-通道类型-顺序编号段。例如：西城区-人民大会堂-西-隧道-10段。</string>
+	<string name="workwell_namingconventions">工井命名规范</string>
+	<string name="channel_namingconventions">通道命名规范</string>
+</resources>

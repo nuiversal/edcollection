@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android-PullToRefresh-master/Android-PullToRefresh-master.iml" filepath="$PROJECT_DIR$/Android-PullToRefresh-master/Android-PullToRefresh-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android-SVProgressHUD-master/Android-SVProgressHUD-master.iml" filepath="$PROJECT_DIR$/Android-SVProgressHUD-master/Android-SVProgressHUD-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basicbusiness/basicbusiness.iml" filepath="$PROJECT_DIR$/basicbusiness/basicbusiness.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edcollection.iml" filepath="$PROJECT_DIR$/edcollection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edcollection/edcollection-edcollection.iml" filepath="$PROJECT_DIR$/edcollection/edcollection-edcollection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/win-android-map/win-android-map.iml" filepath="$PROJECT_DIR$/win-android-map/win-android-map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/win-android-res/win-android-res.iml" filepath="$PROJECT_DIR$/win-android-res/win-android-res.iml" />
+      <module fileurl="file://$PROJECT_DIR$/win-android-util/win-android-util.iml" filepath="$PROJECT_DIR$/win-android-util/win-android-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/winewidgets/winewidgets.iml" filepath="$PROJECT_DIR$/winewidgets/winewidgets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/winmedia/winmedia.iml" filepath="$PROJECT_DIR$/winmedia/winmedia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/winsensor/winsensor.iml" filepath="$PROJECT_DIR$/winsensor/winsensor.iml" />
+    </modules>
+  </component>
+</project>

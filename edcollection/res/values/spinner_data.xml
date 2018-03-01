@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ===================================================下拉框数据配置========================================= -->
+    <!-- 已采集列表  采集时间 -->
+    <string-array name="collected_classify_time">
+        <item>全部</item>
+        <item>当天</item>
+        <item>本周</item>
+        <item>本月</item>
+    </string-array>
+    <!-- 已采集列表  路径点类型 -->
+    <string-array name="collected_classify_pointType">
+        <item>全部</item>
+        <item>虚拟点</item>
+        <item>标识球</item>
+        <item>标识钉</item>
+        <item>杆塔</item>
+        <item>安键环</item>
+    </string-array>
+
+</resources>

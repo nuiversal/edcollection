@@ -1,0 +1,331 @@
+参数约定：
+credit=用户在登陆的时候服务器返回的登陆凭据，用于作为权限判定
+callback=回调器，接口方法在执行完成的时候会调用回调器
+
+一、机构中心：
+/*********************************************************************************************************/
+1、获取机构树
+public void getOrgTree(String orgid,String credit,callback);
+参数和返回结果见“电缆可视化3.0接口文档---EDP接口”
+
+2、获得机构下的所有变电站信息列表
+public void getSubStationsList(String orgId,String credit,callback);
+参数信息：
+orgId=机构ID值
+credit=详情见约定
+callback=详情见约定
+返回数据：
+[
+	{变电站实体，详情见数据库设计}
+]
+/*********************************************************************************************************/
+
+二、变电站信息中心
+/*********************************************************************************************************/
+1、获得具体的变电站信息
+public void getSubStationDetails(String subStationId,String credit,boolean containsLines,callback);
+参数信息：
+subStationId=变电站ID值
+credit=详情见约定
+containsLines=限定返回的数据中是否要包含线路数据，true表示返回的数据中要包含线路数据，false则表示返回的数据中不包含线路数据
+callback=详情见约定
+返回数据：
+{
+	data:{变电站实体，详情见数据库设计},
+	lines:[
+		{线路实体，详情见数据库设计}
+	]
+}
+
+2、获得变电站下的所有线路
+public void getSubStationLineList(String subStationId,String credit,callback);
+参数信息：
+subStationId=变电站ID值
+credit=详情见约定
+callback=详情见约定
+返回数据：
+[
+	{线路实体，详情见数据库设计}
+]
+/*********************************************************************************************************/
+
+三、线路信息中心
+/*********************************************************************************************************/
+1、获得具体的线路信息
+public void getLineDetails(String lineId,String credit,boolean containsNodes,callback);
+参数信息：
+lineId=线路ID值
+credit=详情见约定
+containsLines=限定返回的数据中是否要包含节点数据，true表示返回的数据中要包含节点数据，false则表示返回的数据中不包含节点数据
+callback=详情见约定
+返回数据：
+{
+	data:{线路实体，详情见数据库设计},
+	nodes:[
+		{节点实体，详情见数据库设计}
+	]
+}
+
+2、获得线路线路所有节点
+public void getLineNodeList(String lineId,String credit,callback);
+参数信息：
+lineId=线路ID值
+credit=详情见约定
+callback=详情见约定
+返回数据：
+[
+	{节点实体，详情见数据库设计}
+]
+
+3、获得具体线路的所有线路附属设备（如标签、中间头、分接箱）
+public void getLineDevicesList(String lineId,String credit,callback);
+参数信息：
+lineId=线路ID值
+credit=详情见约定
+callback=详情见约定
+返回数据：
+{
+	labelList:[
+		{
+			data:{标签实体，详情见数据库},
+			node:{节点实体，详情见数据库}
+		}
+	],
+	boxList[
+		{
+			data:{分接箱实体，详情见数据库},
+			node:{节点实体，详情见数据库}
+		}
+	],
+	middleList[
+		{
+			data:{中间头实体，详情见数据库},
+			node:{节点实体，详情见数据库}
+		}
+	]
+}
+/*********************************************************************************************************/
+
+四、节点信息中心
+/*********************************************************************************************************/
+1、获得具体节点信息
+public void getNodeDetail(String nodeId,String credit,callback);
+{
+	节点实体，详情见数据库设计
+}
+
+2、获得具体节点信息
+public void getNodeDetails(String nodeId,String credit,boolean containsLineDevices,boolean containsPathNodeDevices,callback);
+参数信息：
+nodeId=节点ID
+credit=详情见约定
+containsLineDevices=限定返回的数据中是否要包含线路附属设备数据，true表示返回的数据中要包含线路附属设备数据，false则表示返回的数据中不包含线路附属设备数据
+containsPathNodeDevices=路径点设备
+callback=详情见约定
+返回数据：
+{
+	data:{节点实体，详情见数据库设计},
+	//线路附属设备
+	labelList:[
+		{
+			data:{标签实体，详情见数据库},
+			node:{节点实体，详情见数据库}
+		}
+	],
+	boxList[
+		{
+			data:{分接箱实体，详情见数据库},
+			node:{节点实体，详情见数据库}
+		}
+	],
+	middleList[
+		{
+			data:{中间头实体，详情见数据库},
+			node:{节点实体，详情见数据库}
+		}
+	],
+	//路径点设备
+	well:[
+		{
+			data:{工井实体，详情见数据库},
+			node:{节点实体，详情见数据库}
+		}
+	]
+	station:[
+		{
+			data:{变电站实体，详情见数据库},
+			node:{节点实体，详情见数据库}
+		}
+	],
+	tower[
+		{
+			data:{杆塔实体，详情见数据库},
+			node:{节点实体，详情见数据库}
+		}
+	],
+	transformer[
+		{
+			data:{变压器实体，详情见数据库},
+			node:{节点实体，详情见数据库}
+		}
+	],
+	distribution_room[
+		{
+			data:{配电房实体，详情见数据库},
+			node:{节点实体，详情见数据库}
+		}
+	]
+}
+
+3、获取节点关联的线路附属设备
+public void getNodeLineDevicesList(String nodeId,String credit,callback);
+参数信息：
+nodeId=节点ID值
+credit=详情见约定
+callback=详情见约定
+返回数据：
+{
+	labelList:[
+		{
+			data:{标签实体，详情见数据库},
+			node:{节点实体，详情见数据库}
+		}
+	],
+	boxList[
+		{
+			data:{分接箱实体，详情见数据库},
+			node:{节点实体，详情见数据库}
+		}
+	],
+	middleList[
+		{
+			data:{中间头实体，详情见数据库},
+			node:{节点实体，详情见数据库}
+		}
+	]
+}
+
+4、获取节点关联的路径点设备，如1 变电站，2 配电房，3 变压器，4 杆塔，5 工井
+public void getPathNodeDetails(String nodeId,String credit,boolean containsLineDevices,callback);
+{
+	well:[
+		{
+			data:{工井实体，详情见数据库},
+			node:{节点实体，详情见数据库}
+		}
+	]
+	station:[
+		{
+			data:{变电站实体，详情见数据库},
+			node:{节点实体，详情见数据库}
+		}
+	],
+	tower[
+		{
+			data:{杆塔实体，详情见数据库},
+			node:{节点实体，详情见数据库}
+		}
+	],
+	transformer[
+		{
+			data:{变压器实体，详情见数据库},
+			node:{节点实体，详情见数据库}
+		}
+	],
+	distribution_room[
+		{
+			data:{配电房实体，详情见数据库},
+			node:{节点实体，详情见数据库}
+		}
+	]
+}
+
+5、获得穿过节点的所有线路（作用是获得标识器标识的所有线路信息）
+public void getAcrossLineInNode(String nodeId,String credit,callback);
+返回结果：
+[
+	{线路实体，详情见数据库}
+]
+
+
+/*********************************************************************************************************/
+
+五、设备中心
+/*********************************************************************************************************/
+1、获得标签详细信息
+public void getLabel(String labelId,String credit,callback);
+{
+	data:{标签实体，详情见数据库},
+	node:{节点实体，详情见数据库}
+}
+
+2、获得分接箱详细信息
+public void getDistBox(String boxId,String credit,callback);
+{
+	data:{分接箱实体，详情见数据库},
+	node:{节点实体，详情见数据库}
+}
+
+3、获得中间头详细信息
+public void getMiddle(String middleId,String credit,callback);
+{
+	data:{中间头实体，详情见数据库},
+	node:{节点实体，详情见数据库}
+}
+
+4、获得工井详细信息
+public void getWorkWell(String wellId,String credit,callback);
+{
+	data:{工井实体，详情见数据库},
+	node:{节点实体，详情见数据库}
+}
+
+5、获得配电房详细信息
+public void getDistributionRoom(String roomId,String credit,callback);
+{
+	data:{配电房实体，详情见数据库},
+	node:{节点实体，详情见数据库}
+}
+
+
+6、获得变电站详细信息
+public void getStation(String stationId,String credit,callback);
+{
+	data:{变电站实体，详情见数据库},
+	node:{节点实体，详情见数据库}
+}
+
+7、获得变压器详细信息
+public void getTransformer(String transformerId,String credit,callback);
+{
+	data:{变压器实体，详情见数据库},
+	node:{节点实体，详情见数据库}
+}
+
+8、获得杆塔详细信息
+public void getTower(String towerId,String credit,callback);
+{
+	data:{杆塔实体，详情见数据库},
+	node:{节点实体，详情见数据库}
+}
+
+9、获得路径点设备
+public 
+/*********************************************************************************************************/
+
+
+六、通道中心
+/*********************************************************************************************************/
+1、public void getChannel(String channelId,String credit,callback);
+{
+	data:{通道实体，详情见数据库},
+	startDevice:{设备实体（路径点设备，可能是工井，可能是电站房），详情见数据库},
+	endDevice:{设备实体（路径点设备，可能是工井，可能是电站房），详情见数据库},
+	lines:[
+		{线路实体，详情见数据库}
+	],
+	nodes:[
+		{节点实体，详情见数据库}
+	]
+}
+/*********************************************************************************************************/

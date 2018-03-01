@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syncparticipants>
+<participant displayName="SVN (/Android-PullToRefresh-master, /Android-SVProgressHUD-master, /win-android-basicbusiness, /win-android-edcollection, /win-android-ewidgets, /win-android-map, /win-android-media, /win-android-res, /win-android-sensor, /win-android-util)" id="org.tigris.subversion.subclipse.participant" secondary_id="1519869231530">
+<data root="false">
+<org.eclipse.team.ui.TEAMSUBSRCIBERSETTINGS org.eclipse.team.ui.SCOPE_TYPE="ResourceScope">
+<org.eclipse.team.ui.TEAMSUBSRCIBER_REFRESHSCHEDULE org.eclipse.team.ui.CTX_REFRESHSCHEDULE_ENABLED="false" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_INTERVAL="3600" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_RUNONCE="false"/>
+<resource_scope_roots resource_scope_root_resource="/Android-PullToRefresh-master"/>
+<resource_scope_roots resource_scope_root_resource="/Android-SVProgressHUD-master"/>
+<resource_scope_roots resource_scope_root_resource="/win-android-basicbusiness"/>
+<resource_scope_roots resource_scope_root_resource="/win-android-edcollection"/>
+<resource_scope_roots resource_scope_root_resource="/win-android-ewidgets"/>
+<resource_scope_roots resource_scope_root_resource="/win-android-map"/>
+<resource_scope_roots resource_scope_root_resource="/win-android-media"/>
+<resource_scope_roots resource_scope_root_resource="/win-android-res"/>
+<resource_scope_roots resource_scope_root_resource="/win-android-sensor"/>
+<resource_scope_roots resource_scope_root_resource="/win-android-util"/>
+</org.eclipse.team.ui.TEAMSUBSRCIBERSETTINGS>
+</data>
+</participant>
+</syncparticipants>

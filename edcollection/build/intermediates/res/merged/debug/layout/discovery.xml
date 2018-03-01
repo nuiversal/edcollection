@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:edcollection="http://schemas.android.com/apk/res/com.winway.android.edcollection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.winway.android.edcollection.base.widgets.HeadComponent
+            android:id="@+id/hc_discovery_head"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            edcollection:headTitle="设备列表"
+            edcollection:isShowOk="false" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_disveryDevices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null" >
+    </ListView>
+
+</LinearLayout>

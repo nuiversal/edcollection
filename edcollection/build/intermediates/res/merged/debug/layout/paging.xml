@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aabbcc"
+        android:gravity="center_vertical"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/iv_paging_firstpage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:padding="8dp"
+            android:src="@drawable/firstpage" />
+
+        <ImageView
+            android:id="@+id/iv_paging_prepage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:padding="8dp"
+            android:src="@drawable/prepage" />
+
+        <ImageView
+            android:id="@+id/iv_paging_nextpage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:padding="8dp"
+            android:src="@drawable/nextpage" />
+
+        <ImageView
+            android:id="@+id/iv_paging_lastpage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:padding="8dp"
+            android:src="@drawable/lastpage" />
+
+        <TextView
+            android:id="@+id/tv_paging_totalPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="总页数"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/tv_paging_curPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="当前页"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+</LinearLayout>

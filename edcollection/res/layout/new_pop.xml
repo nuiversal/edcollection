@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_newpop_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitesmoke"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_newpop_lineContent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/rl_newpop_lineHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/wathet" >
+
+            <TextView
+                android:id="@+id/tv_newpop_line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="11dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="线路列表"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_new_pop_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/tv_new_pop_addSubstation"
+                android:drawableTop="@drawable/search36"
+                android:padding="5dp"
+                android:text="查询"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_new_pop_addSubstation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/tv_new_pop_addTempLine"
+                android:drawableTop="@drawable/add_36"
+                android:padding="5dp"
+                android:text="变电站"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_new_pop_addTempLine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/iv_new_pop_fold"
+                android:drawableTop="@drawable/add_36"
+                android:padding="5dp"
+                android:text="线路"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/iv_new_pop_fold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/list_shouqi"
+                android:padding="10dp" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/lv_newpop_linelist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_newpop_typeContent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="2"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/rl_newpop_typeHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/wathet" >
+
+            <TextView
+                android:id="@+id/tv_newpop_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="11dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="路径点类型"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/iv_newpop_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/list_shouqi"
+                android:padding="10dp" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/lv_newpop_typelist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

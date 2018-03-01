@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:edcollection="http://schemas.android.com/apk/res/com.winway.android.edcollection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.winway.android.edcollection.base.widgets.HeadComponent
+            android:id="@+id/hc_lable_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            edcollection:headTitle="标签读取"
+            edcollection:isShowOk="true" />
+		<LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+		    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" 
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/btn_hflable_read"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_blue"
+            android:text="高频标签读取"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+         <Button
+            android:id="@+id/btn_uhflable_read"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_blue"
+            android:text="超高频标签读取"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+    </LinearLayout>
+		    
+		</LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_line_name_lineName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal" >
+
+            <com.winway.android.ewidgets.input.InputComponent
+                android:id="@+id/inCon_linelable_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                edcollection:ewidget_inputCom_hint="@string/lable_id_hint"
+                edcollection:ewidget_inputCom_isShowUnit="false"
+                edcollection:ewidget_inputCom_title="@string/lable_id" >
+            </com.winway.android.ewidgets.input.InputComponent>
+
+            <Button
+                android:id="@+id/btn_lable_search"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_blue"
+                android:text="搜索"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv_deviceList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/white" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

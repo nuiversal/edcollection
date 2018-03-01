@@ -1,0 +1,51 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml:3:5-39
+		INJECTED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml
+		INJECTED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml
+		INJECTED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml
+		INJECTED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		ADDED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml:8:9-34
+application
+ADDED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml:11:5-23:19
+	android:label
+		ADDED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml:13:9-41
+	android:allowBackup
+		ADDED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml:12:9-35
+activity#com.bigkoo.svprogresshud.SVProgressHUDTestActivity
+ADDED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml:14:9-22:20
+	android:label
+		ADDED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml:16:13-45
+	android:name
+		ADDED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml:15:13-54
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /Users/Smile/edcollection/Android-SVProgressHUD-master/AndroidManifest.xml:20:27-74

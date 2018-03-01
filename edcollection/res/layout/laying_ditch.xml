@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:edcollection="http://schemas.android.com/apk/res/com.winway.android.edcollection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="3"
+        android:background="@color/white" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <com.winway.android.ewidgets.input.InputSelectComponent
+                    android:id="@+id/insc_laying_ditch_lineName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    edcollection:ewidget_inputSelect_hint="@string/drop_hint_or_input"
+                    edcollection:ewidget_inputSelect_title="@string/laying_ditch_lineName" />
+
+                <Button
+                    android:id="@+id/btn_laying_ditch_lineName_adds"
+                    style="@style/text_Size18_color_ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/btn_blue"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingTop="5dp"
+                    android:text="..." />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <com.winway.android.ewidgets.input.InputComponent
+                    android:id="@+id/inCon_laying_ditch_lineNodeSort"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    edcollection:ewidget_inputCom_hint="@string/input_hint"
+                    edcollection:ewidget_inputCom_isShowUnit="false"
+                    edcollection:ewidget_inputCom_title="@string/laying_ditch_lineNo" >
+                </com.winway.android.ewidgets.input.InputComponent>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <com.winway.android.ewidgets.input.InputSelectComponent
+                    android:id="@+id/insc_laying_ditch_layTyape"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="3"
+                    edcollection:ewidget_inputSelect_hint="@string/drop_hint"
+                    edcollection:ewidget_inputSelect_title="与上一路径点敷设方式" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <com.winway.android.ewidgets.input.InputComponent
+                    android:id="@+id/inCon_laying_ditch_Distance"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    edcollection:ewidget_inputCom_hint="@string/input_hint"
+                    edcollection:ewidget_inputCom_isShowUnit="true"
+                    edcollection:ewidget_inputCom_title="与上一路径点的距离"
+                    edcollection:ewidget_inputCom_unit="m" >
+                </com.winway.android.ewidgets.input.InputComponent>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <com.winway.android.ewidgets.input.InputComponent
+                    android:id="@+id/inCon_laying_ditch_deviceDescription"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    edcollection:ewidget_inputCom_hint="@string/input_hint"
+                    edcollection:ewidget_inputCom_isShowUnit="false"
+                    edcollection:ewidget_inputCom_title="设备描述"
+                     >
+                </com.winway.android.ewidgets.input.InputComponent>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" >
+
+                <Button
+                    android:id="@+id/btn_laying_ditch_add"
+                    style="@style/text_Size18_color_ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/btn_blue"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/laying_ditch_add" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="2"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/laying_ditch_accessory"
+                android:textColor="@color/main_tab_f"
+                android:textSize="@dimen/text_size_18" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/e_required"
+                android:textColor="#ff0000" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/gray" />
+
+        <ListView
+            android:id="@+id/lv_laying_ditch_swipeListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:divider="@color/gray"
+            android:dividerHeight="1dp"
+            android:minHeight="40dp" >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <com.winway.android.ewidgets.input.InputComponent
+            android:id="@+id/ic_laying_ditch_unknown_loopNum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            edcollection:ewidget_inputCom_isShowUnit="false"
+            edcollection:ewidget_inputCom_title="未知回路数" />
+
+        <com.winway.android.ewidgets.input.InputComponent
+            android:id="@+id/ic_laying_ditch_loopNum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            edcollection:ewidget_inputCom_isShowClearIcon="false"
+            edcollection:ewidget_inputCom_isShowUnit="false"
+            edcollection:ewidget_inputCom_title="同沟回路数" />
+    </LinearLayout>
+
+</LinearLayout>

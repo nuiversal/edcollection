@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:edcollection="http://schemas.android.com/apk/res/com.winway.android.edcollection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            layout="@layout/link_label" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <com.winway.android.ewidgets.input.InputComponent
+                android:id="@+id/inCom_pipe_jacking_mc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="5"
+                edcollection:ewidget_inputCom_hint="@string/input"
+                edcollection:ewidget_inputCom_isShowHexagram="true"
+                edcollection:ewidget_inputCom_isShowUnit="false"
+                edcollection:ewidget_inputCom_title="@string/channel_mc" />
+
+            <Button
+                android:id="@+id/btn_namingConventions"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_namingconventions_bg"
+                android:gravity="center"
+                android:text=". . . ."
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <com.winway.android.ewidgets.input.InputComponent
+            android:id="@+id/inCom_pipe_jacking_tdkd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:inputType="number|numberDecimal"
+            edcollection:ewidget_inputCom_hint="@string/input"
+            edcollection:ewidget_inputCom_isShowHexagram="true"
+            edcollection:ewidget_inputCom_isShowUnit="false"
+            edcollection:ewidget_inputCom_title="@string/channel_tdkd" />
+
+        <com.winway.android.ewidgets.input.InputComponent
+            android:id="@+id/inCom_pipe_jacking_tdsd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:inputType="number|numberDecimal"
+            edcollection:ewidget_inputCom_hint="@string/input"
+            edcollection:ewidget_inputCom_isShowHexagram="true"
+            edcollection:ewidget_inputCom_isShowUnit="false"
+            edcollection:ewidget_inputCom_title="@string/channel_tdsd" />
+
+        <com.winway.android.ewidgets.input.InputSelectComponent
+            android:id="@+id/insc_pipe_jacking_tdcz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            edcollection:ewidget_inputSelect_hint="@string/drop_hint"
+            edcollection:ewidget_inputSelect_title="@string/channel_tdcz" />
+
+        <com.winway.android.ewidgets.input.InputComponent
+            android:id="@+id/inCom_pipe_jacking_yxdw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            edcollection:ewidget_inputCom_hint="@string/input"
+            edcollection:ewidget_inputCom_isShowUnit="false"
+            edcollection:ewidget_inputCom_title="@string/channel_yxdw" />
+
+        <com.winway.android.ewidgets.input.InputComponent
+            android:id="@+id/inCon_channel_comment_ssds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            edcollection:ewidget_inputCom_hint="@string/input"
+            edcollection:ewidget_inputCom_isShowUnit="false"
+            edcollection:ewidget_inputCom_title="@string/switch_station_city" >
+        </com.winway.android.ewidgets.input.InputComponent>
+
+        <com.winway.android.ewidgets.input.InputComponent
+            android:id="@+id/inCom_pipe_jacking_sszrq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            edcollection:ewidget_inputCom_hint="@string/input"
+            edcollection:ewidget_inputCom_isShowUnit="false"
+            edcollection:ewidget_inputCom_title="@string/channel_sszrq" />
+
+        <com.winway.android.ewidgets.input.InputSelectComponent
+            android:id="@+id/insc_pipe_jacking_dydj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            edcollection:ewidget_inputSelect_hint="@string/input"
+            edcollection:ewidget_inputSelect_title="@string/channel_dydj" />
+
+        <com.winway.android.ewidgets.input.InputSelectComponent
+            android:id="@+id/insc_pipe_jacking_zt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            edcollection:ewidget_inputSelect_hint="@string/input"
+            edcollection:ewidget_inputSelect_title="@string/channel_zt" />
+
+        <com.winway.android.ewidgets.input.InputComponent
+            android:id="@+id/inCom_pipe_jacking_syrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            edcollection:ewidget_inputCom_hint="@string/input"
+            edcollection:ewidget_inputCom_isShowUnit="false"
+            edcollection:ewidget_inputCom_title="@string/channel_syrl" />
+
+        <com.winway.android.ewidgets.input.InputComponent
+            android:id="@+id/inCom_pipe_jacking_zrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            edcollection:ewidget_inputCom_hint="@string/input"
+            edcollection:ewidget_inputCom_isShowUnit="false"
+            edcollection:ewidget_inputCom_title="@string/channel_zrl" />
+
+        <com.winway.android.ewidgets.input.InputComponent
+            android:id="@+id/inCom_pipe_jacking_qdsbbh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            edcollection:ewidget_inputCom_hint="@string/input_noneed"
+            edcollection:ewidget_inputCom_isShowClearIcon="false"
+            edcollection:ewidget_inputCom_isShowUnit="false"
+            edcollection:ewidget_inputCom_title="@string/channel_qdsbbh" />
+
+        <com.winway.android.ewidgets.input.InputSelectComponent
+            android:id="@+id/inCom_pipe_jacking_zdsbbh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            edcollection:ewidget_inputSelect_hint="@string/input"
+            edcollection:ewidget_inputSelect_title="@string/channel_zdsbbh" />
+
+        <com.winway.android.ewidgets.input.InputComponent
+            android:id="@+id/inCom_pipe_jacking_tdcd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            edcollection:ewidget_inputCom_hint="@string/input"
+            edcollection:ewidget_inputCom_isShowUnit="false"
+            edcollection:ewidget_inputCom_title="@string/channel_tdcd" />
+
+        <com.winway.android.ewidgets.input.InputComponent
+            android:id="@+id/inCom_pipe_jacking_bz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            edcollection:ewidget_inputCom_hint="@string/input"
+            edcollection:ewidget_inputCom_isShowUnit="false"
+            edcollection:ewidget_inputCom_title="@string/tower_remarks" />
+    </LinearLayout>
+
+</RelativeLayout>

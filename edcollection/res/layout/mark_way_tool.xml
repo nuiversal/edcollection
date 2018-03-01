@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/radius_white"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/imgBtn_mark_way_bsq"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/btn_radius_white_selector"
+        android:padding="15dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ico_bsq_n" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_mark_way_id"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/btn_radius_white_selector"
+        android:padding="15dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ico_id_n" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_mark_way_xh"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/btn_radius_white_selector"
+        android:padding="15dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ico_xh_n" />
+
+</LinearLayout>

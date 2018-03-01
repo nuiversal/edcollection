@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_projecting_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0092ff"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/text_Size20_color_000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:padding="10dp"
+                android:text="@string/chooseProName"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/btn_projecting_project"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/refresh" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/lv_projecting_project"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#0092ff"
+            android:cacheColorHint="#000"
+            android:divider="@drawable/listview_line"
+            android:dividerHeight="1dp"
+            android:fadeScrollbars="true"
+            android:visibility="gone" >
+        </ListView>
+
+        <ExpandableListView
+            android:id="@+id/elv_projecting_project"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#0092ff"
+            android:cacheColorHint="#000"
+            android:divider="@drawable/listview_line"
+            android:dividerHeight="1dp"
+            android:fadeScrollbars="true" >
+        </ExpandableListView>
+    </LinearLayout>
+
+</LinearLayout>

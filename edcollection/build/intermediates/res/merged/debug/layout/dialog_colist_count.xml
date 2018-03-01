@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white">
+    <TextView 
+        android:id="@+id/tv_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="全部"
+        android:textSize="@dimen/text_size_20"
+        android:textColor="#07f"
+        android:layout_marginTop="10dp"/>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp">
+        <TextView 
+            android:id="@+id/tv_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:textSize="@dimen/text_size_20"
+            android:text="全部"
+            android:textColor="#07f"/>
+        
+        <TextView 
+            android:id="@+id/tv_number2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_genre"
+            android:textSize="@dimen/text_size_20"
+            android:text="数量"
+            android:textColor="#07f"/>
+        
+        <TextView 
+            android:id="@+id/tv_strip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="个"
+            android:textSize="@dimen/text_size_20"
+            android:layout_marginRight="5dp"
+            android:textColor="#07f"/>
+        
+        <TextView 
+            android:id="@+id/tv_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/tv_strip"
+            android:textSize="@dimen/text_size_20"
+            android:layout_marginRight="3dp"
+            android:text="20"
+            android:textColor="#07f"/>
+        
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/rl_makeBall" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView 
+            android:id="@+id/tv_markBall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:textSize="@dimen/text_size_20"
+            android:text="标识球"
+            android:textColor="#07f"
+            />
+        
+        <TextView 
+            android:id="@+id/tv_markBallnumber2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_markBall"
+            android:textSize="@dimen/text_size_20"
+            android:text="数量"
+            android:textColor="#07f"/>
+        
+        <TextView 
+            android:id="@+id/tv_markBallStrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="个"
+            android:textSize="@dimen/text_size_20"
+            android:layout_marginRight="5dp"
+            android:textColor="#07f"/>
+        
+        <TextView 
+            android:id="@+id/tv_markBallNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/tv_markBallStrip"
+            android:textSize="@dimen/text_size_20"
+            android:layout_marginRight="3dp"
+            android:text="20"
+            android:textColor="#07f"/>
+        
+    </RelativeLayout>
+    
+     <RelativeLayout 
+        android:id="@+id/rl_markNail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView 
+            android:id="@+id/tv_markNail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:textSize="@dimen/text_size_20"
+            android:text="标识钉"
+            android:textColor="#07f"/>
+        
+        <TextView 
+            android:id="@+id/tv_markNailnumber2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_markNail"
+            android:textSize="@dimen/text_size_20"
+            android:text="数量"
+            android:textColor="#07f"/>
+        
+        <TextView 
+            android:id="@+id/tv_markNailStrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="个"
+            android:textSize="@dimen/text_size_20"
+            android:layout_marginRight="5dp"
+            android:textColor="#07f"/>
+        
+        <TextView 
+            android:id="@+id/tv_markNailNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/tv_markNailStrip"
+            android:textSize="@dimen/text_size_20"
+            android:layout_marginRight="3dp"
+            android:text="20"
+            android:textColor="#07f"/>
+        
+    </RelativeLayout>
+    
+     <RelativeLayout
+        android:id="@+id/rl_virtyalPoint" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView 
+            android:id="@+id/tv_virtual_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:textSize="@dimen/text_size_20"
+            android:text="虚拟点"
+            android:textColor="#07f"/>
+        
+        <TextView 
+            android:id="@+id/tv_virtual_point2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_virtual_point"
+            android:textSize="@dimen/text_size_20"
+            android:text="数量"
+            android:textColor="#07f"/>
+        
+        <TextView 
+            android:id="@+id/tv_virtual_point_strip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="个"
+            android:textSize="@dimen/text_size_20"
+            android:layout_marginRight="5dp"
+            android:textColor="#07f"/>
+        
+        <TextView 
+            android:id="@+id/tv_virtualPointNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/tv_virtual_point_strip"
+            android:textSize="@dimen/text_size_20"
+            android:layout_marginRight="3dp"
+            android:text="20"
+            android:textColor="#07f"/>
+    </RelativeLayout>
+    
+     <RelativeLayout
+        android:id="@+id/rl_tower" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView 
+            android:id="@+id/tv_tower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:textSize="@dimen/text_size_20"
+            android:text="杆塔"
+            android:textColor="#07f"/>
+        
+        <TextView 
+            android:id="@+id/tv_tower2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_tower"
+            android:textSize="@dimen/text_size_20"
+            android:text="数量"
+            android:textColor="#07f"/>
+        
+        <TextView 
+            android:id="@+id/tv_towerStrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="个"
+            android:textSize="@dimen/text_size_20"
+            android:layout_marginRight="5dp"
+            android:textColor="#07f"/>
+        
+        <TextView 
+            android:id="@+id/tv_towerNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/tv_towerStrip"
+            android:textSize="@dimen/text_size_20"
+            android:layout_marginRight="3dp"
+            android:text="20"
+            android:textColor="#07f"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_ajh" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView 
+            android:id="@+id/tv_ajh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:textSize="@dimen/text_size_20"
+            android:text="安键环"
+            android:textColor="#07f"/>
+        
+        <TextView 
+            android:id="@+id/tv_ajh2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_ajh"
+            android:textSize="@dimen/text_size_20"
+            android:text="数量"
+            android:textColor="#07f"/>
+        
+        <TextView 
+            android:id="@+id/tv_ajhStrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="个"
+            android:textSize="@dimen/text_size_20"
+            android:layout_marginRight="5dp"
+            android:textColor="#07f"/>
+        
+        <TextView 
+            android:id="@+id/tv_ajhNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/tv_ajhStrip"
+            android:textSize="@dimen/text_size_20"
+            android:layout_marginRight="3dp"
+            android:text="20"
+            android:textColor="#07f"/>
+    </RelativeLayout>
+    
+     <RelativeLayout
+        android:id="@+id/rl_dzbq" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView 
+            android:id="@+id/tv_dzbq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:textSize="@dimen/text_size_20"
+            android:text="电子标签"
+            android:textColor="#07f"/>
+        
+        <TextView 
+            android:id="@+id/tv_dzbq2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_dzbq"
+            android:textSize="@dimen/text_size_20"
+            android:text="数量"
+            android:textColor="#07f"/>
+        
+        <TextView 
+            android:id="@+id/tv_dzbqStrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="个"
+            android:textSize="@dimen/text_size_20"
+            android:layout_marginRight="5dp"
+            android:textColor="#07f"/>
+        
+        <TextView 
+            android:id="@+id/tv_dzbqNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/tv_dzbqStrip"
+            android:textSize="@dimen/text_size_20"
+            android:layout_marginRight="3dp"
+            android:text="20"
+            android:textColor="#07f"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=macosx
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:win-android-edcollection2,org.eclipse.launchbar.core.descriptorType.default\:win-android-edcollection
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:win-android-edcollection/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:win-android-edcollection/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:win-android-edcollection2/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:win-android-edcollection2/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="date_sdf_wz_hm" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="date_sdf_wz_hm"/>
+			<item value="date_sdf"/>
+			<item value="date2Str"/>
+			<item value="tvUpdateTime"/>
+			<item value="tv_collected_item_update_date"/>
+			<item value="stopSelf"/>
+			<item value="refreshPrjList"/>
+			<item value="calculateSection"/>
+			<item value="init"/>
+			<item value="mGestureDetector"/>
+			<item value="PanoramaRenderer"/>
+			<item value="zoom"/>
+			<item value="sc"/>
+			<item value="缩放"/>
+			<item value="onClick"/>
+		</list>
+		<list key="replacehistory">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="290" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="409" key="DIALOG_HEIGHT"/>
+		<item value="860" key="DIALOG_X_ORIGIN"/>
+		<item value="380" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

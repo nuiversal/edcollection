@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:edcollection="http://schemas.android.com/apk/res/com.winway.android.edcollection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.winway.android.edcollection.base.widgets.HeadComponent
+            android:id="@+id/hc_line_name_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            edcollection:headTitle="@string/line_name_title"
+            edcollection:isShowOk="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/ll_line_name_cable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_line_name_cableInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/line_name_cableInfo"
+                    android:textColor="@color/main_tab_f"
+                    android:textSize="@dimen/text_size_18" />
+
+                <com.winway.android.ewidgets.input.InputComponent
+                    android:id="@+id/inCon_line_name_lineName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:visibility="gone"
+                    edcollection:ewidget_inputCom_hint="@string/line_name_lineName"
+                    edcollection:ewidget_inputCom_isShowClearIcon="false"
+                    edcollection:ewidget_inputCom_isShowUnit="false"
+                    edcollection:ewidget_inputCom_title="@string/line_name_lineName" >
+                </com.winway.android.ewidgets.input.InputComponent>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal" 
+                    android:background="@drawable/border_line_padding">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/line_name_lineName"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tv_line_name_lineName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:ellipsize="marquee"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:scrollHorizontally="true"
+                        android:singleLine="true"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal" >
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_line_name_lineNo"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        edcollection:ewidget_inputCom_hint="1"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/line_name_lineNo" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal" >
+
+                    <com.winway.android.ewidgets.input.InputSelectComponent
+                        android:id="@+id/insc_line_name_layTyape"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        edcollection:ewidget_inputSelect_hint="@string/line_name_layTyape_hint"
+                        edcollection:ewidget_inputSelect_title="与上一路径点敷设方式" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_laying_ditch_Distance"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        edcollection:ewidget_inputCom_hint="@string/input_hint"
+                        edcollection:ewidget_inputCom_isShowUnit="true"
+                        edcollection:ewidget_inputCom_title="与上一路径点的距离"
+                        edcollection:ewidget_inputCom_unit="m" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal" >
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_line_name_deviceDesc"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        edcollection:ewidget_inputCom_hint="输入"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/describe" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_line_name_accessory"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:paddingRight="15dp" >
+
+                        <TextView
+                            android:id="@+id/tv_line_name_accessory"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:text="@string/line_name_accessory"
+                            android:textColor="@color/main_tab_f"
+                            android:textSize="@dimen/text_size_18" >
+                        </TextView>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@color/gray" />
+
+                    <ListView
+                        android:id="@+id/lv_line_name_listview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@color/white"
+                        android:divider="@color/gray"
+                        android:dividerHeight="0.5dp"
+                        android:listSelector="#00000000" >
+                    </ListView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@color/gray" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

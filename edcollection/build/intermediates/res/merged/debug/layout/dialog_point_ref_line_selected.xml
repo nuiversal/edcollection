@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:edcollection="http://schemas.android.com/apk/res/com.winway.android.edcollection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7D7D7"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="#0000FF" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="管径信息"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/iv_dialog_point_ref_line_selected_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_close_white" />
+    </RelativeLayout>
+
+    <!-- 通道截面孔径关联线路界面 -->
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.winway.android.ewidgets.input.InputSelectComponent
+            android:id="@+id/dialog_channel_point_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            edcollection:ewidget_inputSelect_hint="@string/drop_hint"
+            edcollection:ewidget_inputSelect_title="关联线路" />
+
+        <com.winway.android.ewidgets.input.InputComponent
+            android:id="@+id/dialog_channel_point_point_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            edcollection:ewidget_inputCom_hint="@string/input_hint"
+            edcollection:ewidget_inputCom_isShowClearIcon="false"
+            edcollection:ewidget_inputCom_isShowUnit="false"
+            edcollection:ewidget_inputCom_title="管孔序号" >
+        </com.winway.android.ewidgets.input.InputComponent>
+
+        <com.winway.android.ewidgets.input.InputComponent
+            android:id="@+id/dialog_channel_point_point_r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            edcollection:ewidget_inputCom_hint="@string/input_hint"
+            edcollection:ewidget_inputCom_isShowClearIcon="false"
+            edcollection:ewidget_inputCom_isShowUnit="false"
+            edcollection:ewidget_inputCom_title="管孔直径" >
+        </com.winway.android.ewidgets.input.InputComponent>
+
+        <com.winway.android.ewidgets.input.InputSelectComponent
+            android:id="@+id/dialog_channel_point_is_plugging"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            edcollection:ewidget_inputSelect_hint="@string/drop_hint"
+            edcollection:ewidget_inputSelect_title="管孔现状" >
+        </com.winway.android.ewidgets.input.InputSelectComponent>
+
+        <com.winway.android.ewidgets.input.InputSelectComponent
+            android:id="@+id/isc_dialog_channel_point_phase_seq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            edcollection:ewidget_inputSelect_hint="@string/drop_hint"
+            edcollection:ewidget_inputSelect_title="电缆相序" >
+        </com.winway.android.ewidgets.input.InputSelectComponent>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.winway.android.ewidgets.input.InputComponent
+                android:id="@+id/dialog_channel_point_fill_color"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                edcollection:ewidget_inputCom_isShowClearIcon="false"
+                edcollection:ewidget_inputCom_isShowUnit="false"
+                edcollection:ewidget_inputCom_title="填充颜色" >
+            </com.winway.android.ewidgets.input.InputComponent>
+
+            <Button
+                android:id="@+id/dialog_channel_point_choose_color"
+                style="@style/text_Size18_color_ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/btn_blue"
+                android:gravity="center_vertical"
+                android:paddingBottom="8dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="8dp"
+                android:text="选择" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/dialog_channel_point_sure"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/btn_blue"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</LinearLayout>

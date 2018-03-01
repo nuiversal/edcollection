@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:edcollection="http://schemas.android.com/apk/res/com.winway.android.edcollection"
+    android:id="@+id/rl_channel_dlzm__operation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.winway.android.edcollection.base.widgets.HeadComponent
+            android:id="@+id/hc_tower_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            edcollection:headTitle="@string/channel_dlzm"
+            edcollection:isShowOk="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/ll_tower_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:orientation="vertical" >
+
+                    <include layout="@layout/layout_channel_comment" />
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_channel_dlzm_running_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input_hint"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/switch_station_running_no" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputSelectComponent
+                        android:id="@+id/inCon_channel_dlzm__operation_ywdw"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputSelect_hint="琴台路项目组"
+                        edcollection:ewidget_inputSelect_title="运维单位" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataDictionaryTypeNo>
+    <typeNo name="dydj">电压等级</typeNo>
+    <typeNo name="010401">电压等级</typeNo><!-- 数据多那个 -->
+    <typeNo name="zssdsdepts">测量班组</typeNo>
+    <typeNo name="0199001">地区特征</typeNo>
+    <typeNo name="010606008">工井形状</typeNo>
+    <typeNo name="010606005">井类型</typeNo>
+    <typeNo name="010606007">井结构</typeNo>
+    <typeNo name="010606008">井盖形状</typeNo>
+    <typeNo name="010606006">井盖材质</typeNo>
+    <typeNo name="010403">资产性质</typeNo>
+    <typeNo name="gwcqxz">产权属性</typeNo>
+    <typeNo name="010402">设备状态</typeNo>
+    <typeNo name="010599">是否代码</typeNo>
+    <typeNo name="010604087">箱变类型</typeNo>
+    <typeNo name="0199003">重要程度</typeNo>
+    <typeNo name="010419">设备增加方式</typeNo>
+    <typeNo name="010604086">防误方式</typeNo>
+    <typeNo name="010604110">电站重要级别</typeNo>
+    <typeNo name="010501">值班方式</typeNo>
+    <typeNo name="010604010">布置误方式</typeNo>
+    <typeNo name="010101">污秽等级</typeNo>
+    <typeNo name="010603013">杆塔材质</typeNo>
+    <typeNo name="dlpdx010605013">类型</typeNo>
+    <typeNo name="010606002">结构形式</typeNo>
+    <typeNo name="channel_state">状态</typeNo>
+    <typeNo name="zyfl010511">专业分类</typeNo>
+    <typeNo name="010606003">管道类型</typeNo>
+    <typeNo name="sgfx010510">施工方式</typeNo>
+    <typeNo name="010604081">材质</typeNo>
+    <typeNo name="010606001">悬挂方式</typeNo>
+    <typeNo name="010606002">结构型式</typeNo>
+    <typeNo name="fzx010604088">类型</typeNo>
+    <typeNo name="010601006">接头类型</typeNo>
+    <typeNo name="GytzType000">工艺特征</typeNo>
+    <typeNo name="dydlfzx010604088">低压电缆分支箱设备类型</typeNo>
+    <typeNo name="channel_state">通道状态</typeNo>
+    <typeNo name="a010404">南方电网资产性质</typeNo>
+    <typeNo name="channel_material">通道材质</typeNo>
+</DataDictionaryTypeNo>
+

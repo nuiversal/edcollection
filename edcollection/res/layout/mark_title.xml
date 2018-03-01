@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/bg_title_bar"
+    android:orientation="horizontal" >
+
+    <LinearLayout 
+        android:id="@+id/ll_mark_title_enter"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        >
+    <ImageView
+        android:id="@+id/iv_mark_title_enter"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/cancel"
+         />
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/collection_info"
+        android:textColor="#ffffff"
+        android:textSize="22sp" />
+
+</LinearLayout>

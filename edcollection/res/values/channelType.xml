@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 国网通道类型 -->
+    <string-array name="stateGridType">
+        <item>顶管</item>
+        <item>拖拉管</item>
+        <item>沟道</item>
+        <item>排管</item>
+        <item>埋管</item>
+        <item>桥架</item>
+        <item>隧道</item>
+        <item>直埋</item>
+        <item>架空</item>
+        <item>电缆槽</item>
+    </string-array>
+<!-- 南网通道类型  工程部目前还没有给出具体哪些类型 给出更改即可-->
+    <string-array name="southGridType">
+        <item>顶管/拖拉管</item>
+        <item>沟道</item>
+        <item>排管</item>
+        <item>桥架</item>
+        <item>隧道</item>
+        <item>直埋</item>
+        <item>架空</item>
+    </string-array>
+</resources>

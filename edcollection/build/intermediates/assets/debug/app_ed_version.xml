@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dbVersion>
+    <!-- 初始版本为 4.20170727.0-->
+   <version name="4.20170727.0">4.20170727.0.sql</version>
+</dbVersion>

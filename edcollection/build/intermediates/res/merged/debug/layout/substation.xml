@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:edcollection="http://schemas.android.com/apk/res/com.winway.android.edcollection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.winway.android.edcollection.base.widgets.HeadComponent
+        android:id="@+id/hc_sub_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        edcollection:headTitle="@string/substation"
+        edcollection:isShowOk="true"
+        edcollection:isShowReturn="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/link_device" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <com.winway.android.ewidgets.input.InputComponent
+                android:id="@+id/inCon_substation_longitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                edcollection:ewidget_inputCom_hint="000,000"
+                edcollection:ewidget_inputCom_isShowUnit="false"
+                edcollection:ewidget_inputCom_title="@string/longitude" >
+            </com.winway.android.ewidgets.input.InputComponent>
+
+            <com.winway.android.ewidgets.input.InputComponent
+                android:id="@+id/inCon_substation_latitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                edcollection:ewidget_inputCom_hint="000,000"
+                edcollection:ewidget_inputCom_isShowUnit="false"
+                edcollection:ewidget_inputCom_title="@string/latitude" >
+            </com.winway.android.ewidgets.input.InputComponent>
+
+            <Button
+                android:id="@+id/btn_substation_map"
+                style="@style/text_Size18_color_ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_blue"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/map" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <com.winway.android.ewidgets.input.InputSelectComponent
+                android:id="@+id/inSelCom_sub_sub_voltage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                edcollection:ewidget_inputSelect_hint="@string/input"
+                edcollection:ewidget_inputSelect_title="@string/sub_voltage" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <com.winway.android.ewidgets.input.InputComponent
+                android:id="@+id/inCom_sub_sub_no"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                edcollection:ewidget_inputCom_hint="@string/input"
+                edcollection:ewidget_inputCom_isShowUnit="false"
+                edcollection:ewidget_inputCom_title="@string/sub_no" >
+            </com.winway.android.ewidgets.input.InputComponent>
+
+            <Button
+                android:id="@+id/btn_substation_createNo"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@color/app_default_color"
+                android:padding="10dp"
+                android:text="生成"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <com.winway.android.ewidgets.input.InputComponent
+                android:id="@+id/inCom_sub_sub_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                edcollection:ewidget_inputCom_hint="@string/input"
+                edcollection:ewidget_inputCom_isShowUnit="false"
+                edcollection:ewidget_inputCom_title="@string/sub_name" >
+            </com.winway.android.ewidgets.input.InputComponent>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <com.winway.android.ewidgets.input.InputSelectComponent
+                android:id="@+id/inSelCom_sub_rightPro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                edcollection:ewidget_inputSelect_hint="1表示公用，2表示专用"
+                edcollection:ewidget_inputSelect_title="@string/sub_rightPro" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="2"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ll_tower_takephoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.winway.android.ewidgets.attachment.AttachmentView
+                android:id="@+id/av_sub_attachment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF" >
+            </com.winway.android.ewidgets.attachment.AttachmentView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

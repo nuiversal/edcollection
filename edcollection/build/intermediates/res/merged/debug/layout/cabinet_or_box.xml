@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:edcollection="http://schemas.android.com/apk/res/com.winway.android.edcollection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.winway.android.edcollection.base.widgets.HeadComponent
+        android:id="@+id/hc_cabinet_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        edcollection:headTitle="@string/cabinet_or_box"
+        edcollection:isShowOk="true"
+        edcollection:isShowReturn="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="5dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp" >
+
+            <TextView
+                style="@style/text_Size18_color_000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/device_type" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/e_required"
+                android:textColor="#ff0000" />
+
+            <RadioGroup
+                android:id="@+id/rg_cabinet_device_type"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp" >
+
+                <RadioButton
+                    android:id="@+id/rdoBtn_cabinet_or_box_box"
+                    style="@style/text_Size16_color_000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawableLeft="@drawable/selected_ic_change"
+                    android:drawablePadding="5dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/box" />
+
+                <RadioButton
+                    android:id="@+id/rdoBtn_cabinet_or_box_cabinet"
+                    style="@style/text_Size16_color_000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/selected_ic_change"
+                    android:drawablePadding="5dp"
+                    android:text="@string/cabinet" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp" >
+
+            <com.winway.android.ewidgets.input.InputComponent
+                android:id="@+id/inCon_cabinet_device_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                edcollection:ewidget_inputCom_hint="@string/input"
+                edcollection:ewidget_inputCom_isShowUnit="false"
+                edcollection:ewidget_inputCom_title="@string/device_name" >
+            </com.winway.android.ewidgets.input.InputComponent>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp" >
+
+            <com.winway.android.ewidgets.input.InputComponent
+                android:id="@+id/inCon_cabinet_loop_total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                edcollection:ewidget_inputCom_hint="@string/input"
+                edcollection:ewidget_inputCom_isShowUnit="false"
+                edcollection:ewidget_inputCom_title="@string/loop_total" >
+            </com.winway.android.ewidgets.input.InputComponent>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:paddingLeft="10dp" >
+
+        <com.winway.android.edcollection.base.widgets.TakePhotoComponent
+            android:id="@+id/tpc_cabinet_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            edcollection:takePhotoTitle="拍照" >
+        </com.winway.android.edcollection.base.widgets.TakePhotoComponent>
+    </LinearLayout>
+
+</LinearLayout>

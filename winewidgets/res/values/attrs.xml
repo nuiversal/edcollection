@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="swipelistviewstyle">
+        <attr name="right_width" format="dimension"></attr>
+    </declare-styleable>
+    <!-- 输入框组件 -->
+    <declare-styleable name="EInputComponentAttr">
+
+        <!-- 是否显示单位 -->
+        <attr name="ewidget_inputCom_isShowUnit" format="boolean" />
+        <attr name="ewidget_inputCom_isShowTitle" format="boolean" />
+        <attr name="ewidget_inputCom_hint" format="string" />
+        <attr name="ewidget_inputCom_title" format="string" />
+        <attr name="ewidget_inputCom_unit" format="string" />
+        <attr name="ewidget_inputCom_isShowClearIcon" format="boolean"></attr>
+        <attr name="ewidget_inputCom_isShowHexagram" format="boolean"></attr>
+    </declare-styleable>
+
+    <!-- 多行输入框组件 -->
+    <declare-styleable name="EMultilineInputComponentAttr">
+        <attr name="ewidget_inputComMultiline_hint" format="string" />
+    </declare-styleable>
+
+    <!-- 下拉框组件 -->
+    <declare-styleable name="EInputSelectComponentAttr">
+        <attr name="ewidget_inputSelect_hint" format="string" />
+        <attr name="ewidget_inputSelect_title" format="string" />
+        <attr name="ewidget_inputSelect_justSelect" format="boolean" />
+    </declare-styleable>
+
+    <!-- 按钮组件 -->
+    <declare-styleable name="EButtonComponent">
+        <attr name="ewidget_ebutton_backgroundDrawable" format="reference" />
+    </declare-styleable>
+
+    <!-- 搜索组件 -->
+    <declare-styleable name="ESearchComponent">
+        <attr name="ewidget_esearch_hint" format="string" />
+    </declare-styleable>
+
+    <!-- 登录输入框组件 -->
+    <declare-styleable name="ELoginInputComponentAttr">
+        <attr name="ewidget_loginInputCom_inputHeight" format="dimension" />
+    </declare-styleable>
+
+    <!-- 开源ScrollLayout（在ScrollView或者ListView里面使用ViewPager.支持手势上拉滑出,中途停顿,下滑退出页面,类似百度地图内场景抽屉拖拽效果效果） -->
+    <declare-styleable name="ScrollLayout">
+        <attr name="minOffset" format="dimension" />
+        <attr name="maxOffset" format="dimension" />
+        <attr name="exitOffset" format="dimension" />
+        <attr name="mode">
+            <flag name="open" value="0x0" />
+            <flag name="close" value="0x1" />
+            <flag name="exit" value="0x2" />
+        </attr>
+        <attr name="allowHorizontalScroll" format="boolean" />
+        <attr name="isSupportExit" format="boolean" />
+    </declare-styleable>
+    
+    <!-- 可展开收缩文本组件 -->
+    <declare-styleable name="ExpandableTextView">
+        <attr name="etv_MaxLinesOnShrink" format="reference|integer" />
+        <attr name="etv_EllipsisHint" format="reference|string" /><!--default is ..-->
+        <attr name="etv_ToExpandHint" format="reference|string" /><!--"to expand" hint string, default is "Expand"-->
+        <attr name="etv_ToShrinkHint" format="reference|string" /><!--"to shrink" hint string, default is "Shrink"-->
+        <attr name="etv_GapToExpandHint" format="reference|string" /><!--gap between "toExpandHint" and "trimmed text"-->
+        <attr name="etv_GapToShrinkHint" format="reference|string" /><!--gap between "toShrinkHint" and "trimmed text"-->
+        <attr name="etv_EnableToggle" format="reference|boolean" /><!--if toggle the state when click ExpandTextView-->
+        <attr name="etv_ToExpandHintShow" format="reference|boolean" /><!--if show "toExpandHint"-->
+        <attr name="etv_ToShrinkHintShow" format="reference|boolean" /><!--if show "toShrinkHint"-->
+        <attr name="etv_ToExpandHintColor" format="reference|color" /><!--text color of "toExpandHint"-->
+        <attr name="etv_ToShrinkHintColor" format="reference|color" /><!--text color of "toShrinkHint"-->
+        <attr name="etv_ToExpandHintColorBgPressed" format="reference|color" /><!--background color if "toExpandHint" pressed-->
+        <attr name="etv_ToShrinkHintColorBgPressed" format="reference|color" /><!--background color if "toShrinkHint" pressed-->
+        <attr name="etv_InitState" format="enum"><!--init state, default is shrink-->
+            <enum name="shrink" value="0"/>
+            <enum name="expand" value="1"/>
+        </attr>
+    </declare-styleable>
+
+</resources>

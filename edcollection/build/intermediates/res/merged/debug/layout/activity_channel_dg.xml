@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:edcollection="http://schemas.android.com/apk/res/com.winway.android.edcollection"
+    android:id="@+id/rl_pipe_jacking"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <com.winway.android.edcollection.base.widgets.HeadComponent
+            android:id="@+id/hc_pipe_jacking_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            edcollection:headTitle="电缆拖拉管/顶管"
+            edcollection:isShowOk="true"
+            edcollection:isShowReturn="true" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical" >
+
+                <include layout="@layout/layout_channel_comment" />
+
+                <com.winway.android.ewidgets.input.InputComponent
+                    android:id="@+id/inCom_pipe_jacking_yxbh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    edcollection:ewidget_inputCom_hint="@string/input"
+                    edcollection:ewidget_inputCom_isShowUnit="false"
+                    edcollection:ewidget_inputCom_title="运行编号" />
+
+                <com.winway.android.ewidgets.input.InputSelectComponent
+                    android:id="@+id/insc_pipe_jacking_ywdw"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    edcollection:ewidget_inputSelect_hint="选择"
+                    edcollection:ewidget_inputSelect_title="运维单位" />
+
+                <com.winway.android.ewidgets.input.InputSelectComponent
+                    android:id="@+id/insc_pipe_jacking_jgxs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    edcollection:ewidget_inputSelect_hint="选择"
+                    edcollection:ewidget_inputSelect_title="结构形式" />
+
+                <com.winway.android.ewidgets.input.InputComponent
+                    android:id="@+id/inCom_pipe_jacking_zx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    edcollection:ewidget_inputCom_hint="@string/input"
+                    edcollection:ewidget_inputCom_isShowUnit="false"
+                    edcollection:ewidget_inputCom_title="走向" />
+
+                <com.winway.android.ewidgets.input.InputComponent
+                    android:id="@+id/inCom_pipe_jacking_ltgx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    edcollection:ewidget_inputCom_hint="@string/input"
+                    edcollection:ewidget_inputCom_isShowUnit="false"
+                    edcollection:ewidget_inputCom_title="连通关系" />
+
+                <com.winway.android.ewidgets.input.InputComponent
+                    android:id="@+id/inCom_pipe_jacking_hxpm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    edcollection:ewidget_inputCom_hint="@string/input"
+                    edcollection:ewidget_inputCom_isShowUnit="false"
+                    edcollection:ewidget_inputCom_title="横向剖面" />
+
+                <com.winway.android.ewidgets.input.InputComponent
+                    android:id="@+id/inCom_pipe_jacking_zxpm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    edcollection:ewidget_inputCom_hint="@string/input"
+                    edcollection:ewidget_inputCom_isShowUnit="false"
+                    edcollection:ewidget_inputCom_title="纵向剖面" />
+
+                <com.winway.android.ewidgets.input.InputComponent
+                    android:id="@+id/inCom_pipe_jacking_kd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    edcollection:ewidget_inputCom_hint="@string/input"
+                    edcollection:ewidget_inputCom_isShowUnit="false"
+                    edcollection:ewidget_inputCom_title="宽度" />
+
+                <com.winway.android.ewidgets.input.InputComponent
+                    android:id="@+id/inCom_pipe_jacking_tlgsl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    edcollection:ewidget_inputCom_hint="@string/input"
+                    edcollection:ewidget_inputCom_isShowUnit="false"
+                    edcollection:ewidget_inputCom_title="拖拉管数量" />
+
+                <com.winway.android.ewidgets.input.InputComponent
+                    android:id="@+id/inCom_pipe_jacking_tlggj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    edcollection:ewidget_inputCom_hint="@string/input"
+                    edcollection:ewidget_inputCom_isShowUnit="false"
+                    edcollection:ewidget_inputCom_title="拖拉管管径" />
+
+                <com.winway.android.ewidgets.input.InputComponent
+                    android:id="@+id/inCom_pipe_jacking_gccz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    edcollection:ewidget_inputCom_hint="@string/input"
+                    edcollection:ewidget_inputCom_isShowUnit="false"
+                    edcollection:ewidget_inputCom_title="管材材质" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

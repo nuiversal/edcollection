@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:edcollection="http://schemas.android.com/apk/res/com.winway.android.edcollection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_gj_dl_not_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_blue"
+            android:padding="10dp"
+            android:text="无网格"
+            android:textColor="@color/white" 
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <com.winway.android.ewidgets.input.InputComponent
+                android:id="@+id/incon_dialog_wg_setting_y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                edcollection:ewidget_inputCom_hint=""
+                edcollection:ewidget_inputCom_isShowUnit="false"
+                edcollection:ewidget_inputCom_title="行数" >
+            </com.winway.android.ewidgets.input.InputComponent>
+            
+             <com.winway.android.ewidgets.input.InputComponent
+                android:id="@+id/incon_dialog_wg_setting_x"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                edcollection:ewidget_inputCom_hint=""
+                edcollection:ewidget_inputCom_isShowUnit="false"
+                edcollection:ewidget_inputCom_title="列数" >
+            </com.winway.android.ewidgets.input.InputComponent>
+            
+            
+            
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_gj_dl_grid_sure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_blue"
+            android:padding="10dp"
+            android:text="确定网格"
+            android:layout_margin="5dp"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

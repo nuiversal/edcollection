@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:edcollection="http://schemas.android.com/apk/res/com.winway.android.edcollection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <com.winway.android.edcollection.base.widgets.HeadComponent
+            android:id="@+id/hc_update_channel_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            edcollection:headTitle="通道修改"
+            edcollection:isShowOk="true" >
+        </com.winway.android.edcollection.base.widgets.HeadComponent>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="通道名称:" 
+                    android:textSize="@dimen/text_size_18"/>
+                <TextView
+                    android:id="@+id/tv_update_channel_channelName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginLeft="5dp"
+                   android:textSize="@dimen/text_size_16"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="通道类型:" 
+                    android:textSize="@dimen/text_size_18"/>
+                <TextView
+                    android:id="@+id/tv_update_channel_channelType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                   android:textSize="@dimen/text_size_16"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" >
+
+                <Button
+                    android:id="@+id/btn_update_channel_attrUpdate"
+                    android:layout_width="@dimen/x160"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_blue"
+                    android:padding="10dp"
+                    android:text="通道属性修改"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="#e9e9e9" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp" >
+
+            <com.winway.android.ewidgets.input.InputSelectComponent
+                android:id="@+id/inSelCom_update_channel_channelType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                edcollection:ewidget_inputSelect_hint="@string/input"
+                edcollection:ewidget_inputSelect_title="通道类型:" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" >
+
+                <Button
+                    android:id="@+id/btn_update_channel_typeUpdate"
+                    android:layout_width="@dimen/x160"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_blue"
+                    android:padding="10dp"
+                    android:text="通道类型修改"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="#e9e9e9" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp" >
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

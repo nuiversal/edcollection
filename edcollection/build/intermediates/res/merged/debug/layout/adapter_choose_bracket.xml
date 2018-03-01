@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        style="@style/text_Size15_color_000000"
+        android:id="@+id/tv_adapter_choose_bracket_item"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="层数"
+        android:padding="10dp"
+        />
+    
+
+</LinearLayout>

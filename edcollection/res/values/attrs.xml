@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 输入框组件 -->
+    <declare-styleable name="InputComponentAttr">
+
+        <!-- 是否显示单位 -->
+        <attr name="isShowUnit" format="boolean" />
+        <attr name="hint" format="string" />
+        <attr name="title" format="string" />
+        <attr name="unit" format="string" />
+        
+    </declare-styleable>
+
+    <!-- head栏组件 -->
+    <declare-styleable name="HeadComponentAttr">
+        <attr name="isShowReturn" format="boolean"></attr>
+        <attr name="isShowOk" format="boolean"></attr>
+        <attr name="headTitle" format="string"></attr>
+    </declare-styleable>
+
+    <!-- 拍照组件 -->
+    <declare-styleable name="TakePhotoComponentAttr">
+        <attr name="takePhotoTitle" format="string"></attr>
+    </declare-styleable>
+
+    <!-- 下拉框组件 -->
+    <declare-styleable name="InputSelectComponentAttr">
+        <attr name="inputSelectHint" format="string" />
+        <attr name="inputSelectTitle" format="string" />
+    </declare-styleable>
+	
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:edcollection="http://schemas.android.com/apk/res/com.winway.android.edcollection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.winway.android.edcollection.base.widgets.HeadComponent
+        android:id="@+id/hc_select_device_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        edcollection:headTitle="关联设备"
+        edcollection:isShowOk="true"
+        edcollection:isShowReturn="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:padding="15dp" >
+
+        <EditText
+            android:id="@+id/edtTxt_select_device_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="2"
+            android:background="@drawable/border_line_white_bg"
+            android:hint="请输入"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btn_select_device_query"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_blue"
+            android:padding="8dp"
+            android:text="查询"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <ListView
+            android:id="@+id/lv_select_device_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.winway.android.ewidgets.page.PageControl
+            android:id="@+id/pc_select_device_paging"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

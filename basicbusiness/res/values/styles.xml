@@ -1,0 +1,18 @@
+<resources>
+
+    <style name="res_animationLeftFade">
+        <item name="android:windowEnterAnimation">@anim/res_in_lefttoright</item>
+        <item name="android:windowExitAnimation">@anim/res_out_righttoleft</item>
+    </style>
+
+    <style name="res_animationRightFade">
+        <item name="android:windowEnterAnimation">@anim/res_in_righttoleft</item>
+        <item name="android:windowExitAnimation">@anim/res_out_lefttoright</item>
+    </style>
+
+    <style name="res_animationBottomFade">
+        <item name="android:windowEnterAnimation">@anim/res_in_bottomtotop</item>
+        <item name="android:windowExitAnimation">@anim/res_out_toptobottom</item>
+    </style>
+
+</resources>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:edcollection="http://schemas.android.com/apk/res/com.winway.android.edcollection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="4dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_activity_channel_planing_down"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_top_bar_category" />
+
+            <com.winway.android.ewidgets.input.InputSelectComponent
+                android:id="@+id/insc_activity_channel_planing_size"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                edcollection:ewidget_inputSelect_hint=""
+                edcollection:ewidget_inputSelect_title="" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/activity_channel_planing_add_jm"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btn_blue"
+                android:text="保存截面"
+                android:textColor="@color/white"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/activity_channel_planing_save_data"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_blue"
+                android:text="采集完成"
+                android:textColor="@color/white"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.winway.android.edcollection.adding.customview.GJDrawView
+                android:id="@+id/activity_channel_planning_gjdrawview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white" />
+
+            <RelativeLayout
+                android:id="@+id/activity_channel_planing_compass_container"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_centerInParent="true"
+                android:visibility="gone" >
+
+                <com.winway.android.edcollection.adding.customview.CompassView
+                    android:id="@+id/activity_channel_planing_compass_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/compass" />
+
+                <LinearLayout
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:padding="4dp" >
+
+                    <TextView
+                        android:id="@+id/activity_channel_planing_compass_degress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textSize="@dimen/text_size_16" />
+
+                    <Button
+                        android:id="@+id/activity_channel_planing_compass_sure"
+                        android:layout_width="70dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/btn_login_selector"
+                        android:text="确定"
+                        android:textColor="@color/white"
+                        android:visibility="visible" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/solid_border_section"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/incon_activity_channel_planing_sstd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        edcollection:ewidget_inputCom_isShowClearIcon="false"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/jm_sstd" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/incon_activity_channel_planing_jmmc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        edcollection:ewidget_inputCom_hint=""
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/jm_jmmc" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/incon_activity_channel_planing_jmjd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        edcollection:ewidget_inputCom_hint=""
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/jm_jmjd" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+                </LinearLayout>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:id="@+id/activity_channel_planing_mini_drawview_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <include
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            layout="@layout/layout_menu" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:edcollection="http://schemas.android.com/apk/res/com.winway.android.edcollection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/grayish" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical" >
+
+            <com.winway.android.ewidgets.input.InputSelectComponent
+                android:id="@+id/isc_damage_collect_damageStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                edcollection:ewidget_inputSelect_hint="@string/input_hint"
+                edcollection:ewidget_inputSelect_title="通道状况" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="通道环境描述"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_18" />
+
+                <EditText
+                    android:id="@+id/edtTxt_damage_collect_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_line_white_bg"
+                    android:gravity="left|top"
+                    android:hint="备注信息"
+                    android:inputType="textMultiLine"
+                    android:minLines="6" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

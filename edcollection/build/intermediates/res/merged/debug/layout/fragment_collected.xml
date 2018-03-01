@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_title_bar"
+        android:padding="4dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已采集列表"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/text_size_20" />
+        
+        <TextView 
+            android:id="@+id/tv_sum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="统计"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/text_size_20"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"/>
+        
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/include_fragment_collected_classify"
+        layout="@layout/fragment_collected_classify" />
+
+    <ListView
+        android:id="@+id/lv_fragment_collected_viewpage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:listSelector="@android:color/transparent"
+        android:background="#ffffff" >
+    </ListView>
+
+</LinearLayout>

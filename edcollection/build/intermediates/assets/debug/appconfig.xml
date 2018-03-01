@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configs>
+    <Host>http://112.74.85.6</Host>
+    <Port>8026</Port>
+    <MapsCacheRoot></MapsCacheRoot><!-- 默认取sdcard根目录 -->
+    <MapsCenterX>113.160517</MapsCenterX><!-- 初始化地图中心X113.460933 -->
+    <MapsCenterY>23.43235</MapsCenterY><!-- 初始化地图中心Y23.165390-->
+    <MapsCenterLevel>9</MapsCenterLevel><!-- 初始化地图等级 -->
+    <MapsLevelDifference>11</MapsLevelDifference><!-- 2D地图与25D地图等级差25D-2D -->
+    <HeartbeatInterval>5</HeartbeatInterval><!-- 上传一个轨迹点的时间间隔 -->
+    <GPSPrecision>1</GPSPrecision><!-- GPS更新距离，单位（米） -->
+    <KeyWordSearch>SearchTDT</KeyWordSearch><!-- 搜索URL标志 -->
+    <TrafficTransfer>SearchTDT</TrafficTransfer><!-- 公交换乘URL标志 -->
+    <Services>
+        <Service>
+            <Name>SearchTDT</Name>
+            <Url>http://map.tianditu.cn/query.shtml</Url><!-- 天地图地址www改为map -->
+        </Service>         
+        <Service>
+            <Name>SearchOCN</Name>
+            <Url>http://59.42.53.226:8007/</Url>
+        </Service>
+    </Services>
+    <Functions>
+        <UploadPath>true</UploadPath><!-- 上传轨迹功能 -->
+        <MeasureTools>true</MeasureTools><!-- 测距测面功能 -->
+        <LayerControl>true</LayerControl><!-- 图层控制功能 -->
+    </Functions>
+</configs>

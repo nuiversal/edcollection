@@ -1,0 +1,722 @@
+[
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/channel_switch_station.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/channel_switch_station.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/dialog_listview_item.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/dialog_listview_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/channel_pds.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/channel_pds.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/ewidgets_input_select_item.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/ewidgets_input_select_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/view_photopreview.xml",
+        "source": "/Users/Smile/edcollection/winmedia/build/intermediates/bundles/debug/res/layout/view_photopreview.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/dlfzx.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/dlfzx.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/fragment_collected.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/fragment_collected.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_select_channel.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/activity_select_channel.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/link_device.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/link_device.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/view_camera.xml",
+        "source": "/Users/Smile/edcollection/winmedia/build/intermediates/bundles/debug/res/layout/view_camera.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/fragment_new_title.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/fragment_new_title.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/new_pop_item.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/new_pop_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/ewidgets_input_item_multiline.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/ewidgets_input_item_multiline.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/dialog_bluetooth_device_discover.xml",
+        "source": "/Users/Smile/edcollection/winsensor/build/intermediates/bundles/debug/res/layout/dialog_bluetooth_device_discover.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/dialog_colist_count.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/dialog_colist_count.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/rfid_device_name.xml",
+        "source": "/Users/Smile/edcollection/winsensor/build/intermediates/bundles/debug/res/layout/rfid_device_name.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/acitivity_bluetooth.xml",
+        "source": "/Users/Smile/edcollection/winsensor/build/intermediates/bundles/debug/res/layout/acitivity_bluetooth.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/substation.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/substation.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_channel_dlzm.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/activity_channel_dlzm.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/tree_content.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/tree_content.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/laying_ditch_add_lines.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/laying_ditch_add_lines.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/tasklist.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/tasklist.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/dialog_custom.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/dialog_custom.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/layout_attachment_video_item.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/layout_attachment_video_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/take_photo.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/take_photo.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/laying_ditch_item.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/laying_ditch_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/map2.xml",
+        "source": "/Users/Smile/edcollection/win-android-map/build/intermediates/bundles/debug/res/layout/map2.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_addtempline.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/activity_addtempline.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/damage_collect.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/damage_collect.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/line_search_add.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/line_search_add.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/input_item.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/input_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/dialog_nfc_reader.xml",
+        "source": "/Users/Smile/edcollection/winsensor/build/intermediates/bundles/debug/res/layout/dialog_nfc_reader.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/layout_channel_comment.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/layout_channel_comment.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/lable.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/lable.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_photopreview.xml",
+        "source": "/Users/Smile/edcollection/winmedia/build/intermediates/bundles/debug/res/layout/activity_photopreview.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/bg_dialog_positive.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/bg_dialog_positive.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/collected_pop_item.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/collected_pop_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_setting_lv_item.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/activity_setting_lv_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/main_test.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/main_test.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/dialog_point_ref_line_selected.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/dialog_point_ref_line_selected.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/list_item_search_result.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/list_item_search_result.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_marker_collect.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/activity_marker_collect.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/layout_dialog_jms_item.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/layout_dialog_jms_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/distribution_room.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/distribution_room.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/dydlfzx.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/dydlfzx.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/gj_activity.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/gj_activity.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_channel_dlc.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/activity_channel_dlc.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/select_device_item.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/select_device_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/image_item.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/image_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/dialog_choose_bracket.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/dialog_choose_bracket.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_projecting_lv_item.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/activity_projecting_lv_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/rfid_custom_title.xml",
+        "source": "/Users/Smile/edcollection/winsensor/build/intermediates/bundles/debug/res/layout/rfid_custom_title.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_channel_planing.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/activity_channel_planing.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_apk_version.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/activity_apk_version.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/bg_dialog.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/bg_dialog.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/laying_ditch_add_lines_item.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/laying_ditch_add_lines_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_projecting_title.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/activity_projecting_title.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_test_apk_upgrade.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/activity_test_apk_upgrade.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/cabinet_or_box.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/cabinet_or_box.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/spinner_item_layout.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/spinner_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/layout_voice_recorde.xml",
+        "source": "/Users/Smile/edcollection/winmedia/build/intermediates/bundles/debug/res/layout/layout_voice_recorde.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/device_read_tool.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/device_read_tool.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/layout_attachment_text_item.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/layout_attachment_text_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/dialog_channel_order_update.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/dialog_channel_order_update.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/map_measure.xml",
+        "source": "/Users/Smile/edcollection/win-android-map/build/intermediates/bundles/debug/res/layout/map_measure.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/layout_devicequery_lv_item.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/layout_devicequery_lv_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/layout_naming_conventions.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/layout_naming_conventions.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/layout_background_boder.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/layout_background_boder.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/xlistview_footer.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/xlistview_footer.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/setting_server_address.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/setting_server_address.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/layout_vr_image_show.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/layout_vr_image_show.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/line_name.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/line_name.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_select_line.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/activity_select_line.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/taskdetail_list_item.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/taskdetail_list_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/map_thumbnail.xml",
+        "source": "/Users/Smile/edcollection/win-android-map/build/intermediates/bundles/debug/res/layout/map_thumbnail.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/map_theme_change.xml",
+        "source": "/Users/Smile/edcollection/win-android-map/build/intermediates/bundles/debug/res/layout/map_theme_change.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/dialog_text_input.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/dialog_text_input.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/jg.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/jg.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/coll_pop_item.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/coll_pop_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_tree.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/activity_tree.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/main_item_transfer.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/main_item_transfer.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/discovery_item.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/discovery_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_setting_lv_item2.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/activity_setting_lv_item2.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/fragment_channel.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/fragment_channel.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_emtask_details.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/activity_emtask_details.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/feature_point_item.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/feature_point_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/dialog_rtk_info.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/dialog_rtk_info.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/layout_table_container_b.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/layout_table_container_b.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/paging.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/paging.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/progress_dialog.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/progress_dialog.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_projecting.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/activity_projecting.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/xlistview_header.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/xlistview_header.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/discovery.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/discovery.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/work_well.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/work_well.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/map_switch.xml",
+        "source": "/Users/Smile/edcollection/win-android-map/build/intermediates/bundles/debug/res/layout/map_switch.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/spinner_text_layout.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/spinner_text_layout.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_setting_about.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/activity_setting_about.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/taskdetail.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/taskdetail.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/update_channel.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/update_channel.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/layout_table_container.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/layout_table_container.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/dialog_task_details_table_container.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/dialog_task_details_table_container.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/common_datetime.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/common_datetime.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/work_well_conventions.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/work_well_conventions.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_channel_dlq.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/activity_channel_dlq.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/layout_attachment_vr_item.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/layout_attachment_vr_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_channel_dlg.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/activity_channel_dlg.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/rfid_layout.xml",
+        "source": "/Users/Smile/edcollection/winsensor/build/intermediates/bundles/debug/res/layout/rfid_layout.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/head_item.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/head_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/layout_attachment_voice_item.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/layout_attachment_voice_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/layout_menu.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/layout_menu.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/ewidgets_input_item.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/ewidgets_input_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_bluetooth_nfc.xml",
+        "source": "/Users/Smile/edcollection/winsensor/build/intermediates/bundles/debug/res/layout/activity_bluetooth_nfc.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/scene_photo.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/scene_photo.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/fragment_new.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/fragment_new.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/channel.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/channel.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/mark_title.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/mark_title.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/buttom.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/buttom.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/link_label.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/link_label.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/marker_basicinfo.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/marker_basicinfo.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_channel_dlsd.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/activity_channel_dlsd.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/layout_album.xml",
+        "source": "/Users/Smile/edcollection/winmedia/build/intermediates/bundles/debug/res/layout/layout_album.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/dialog_content_view.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/dialog_content_view.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/input_select_item.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/input_select_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/tower.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/tower.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/map.xml",
+        "source": "/Users/Smile/edcollection/win-android-map/build/intermediates/bundles/debug/res/layout/map.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/listview_comment_item_sensor.xml",
+        "source": "/Users/Smile/edcollection/winsensor/build/intermediates/bundles/debug/res/layout/listview_comment_item_sensor.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/dialog_label_read.xml",
+        "source": "/Users/Smile/edcollection/winsensor/build/intermediates/bundles/debug/res/layout/dialog_label_read.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/layout_offline_attachment.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/layout_offline_attachment.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_xsbdz.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/activity_xsbdz.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/dialog_search_input.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/dialog_search_input.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_channel_dg.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/activity_channel_dg.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/fragment_collected_classify.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/fragment_collected_classify.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/layout_image.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/layout_image.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/bg_dialog_close.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/bg_dialog_close.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/test.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/test.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_test.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/activity_test.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/transformer.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/transformer.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/layout_window_show_jms.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/layout_window_show_jms.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/dialog_wg_setting.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/dialog_wg_setting.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/link_device_and_label.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/link_device_and_label.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/new_pop.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/new_pop.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/map_tool.xml",
+        "source": "/Users/Smile/edcollection/win-android-map/build/intermediates/bundles/debug/res/layout/map_tool.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/view_1px_bg_gray.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/view_1px_bg_gray.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/layout_attachment_photo_item.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/layout_attachment_photo_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/channel_list_item.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/channel_list_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/line_accessory_item.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/line_accessory_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_photoselector.xml",
+        "source": "/Users/Smile/edcollection/winmedia/build/intermediates/bundles/debug/res/layout/activity_photoselector.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/inse_item_layout.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/inse_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/adapter_choose_bracket.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/adapter_choose_bracket.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/popupwindow_layerinfo.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/popupwindow_layerinfo.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/hwg.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/hwg.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/mark_way_tool.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/mark_way_tool.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_bluetooth_nfc_dk.xml",
+        "source": "/Users/Smile/edcollection/winsensor/build/intermediates/bundles/debug/res/layout/activity_bluetooth_nfc_dk.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/laying_ditch.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/laying_ditch.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/layout_photoitem.xml",
+        "source": "/Users/Smile/edcollection/winmedia/build/intermediates/bundles/debug/res/layout/layout_photoitem.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/select_device.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/select_device.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/rfid_message.xml",
+        "source": "/Users/Smile/edcollection/winsensor/build/intermediates/bundles/debug/res/layout/rfid_message.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/dialog_name_update.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/dialog_name_update.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/ewidgets_dataitem_listitem.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/ewidgets_dataitem_listitem.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/dialog_line_choose_operation_container.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/dialog_line_choose_operation_container.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_map_select_point.xml",
+        "source": "/Users/Smile/edcollection/win-android-map/build/intermediates/bundles/debug/res/layout/activity_map_select_point.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_channel_dlgd.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/activity_channel_dlgd.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/ewidgets_login_input.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/ewidgets_login_input.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/fragment_setting.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/fragment_setting.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/collected_item.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/collected_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/layout_table_item.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/layout_table_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/intermediate_head.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/intermediate_head.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_device_readquery.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/activity_device_readquery.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/ewidgets_search.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/ewidgets_search.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/activity_channel_jk.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/activity_channel_jk.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/rfid_device_list.xml",
+        "source": "/Users/Smile/edcollection/winsensor/build/intermediates/bundles/debug/res/layout/rfid_device_list.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/mark_tab.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/mark_tab.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/dlksh_tree_item.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/dlksh_tree_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/spinner_window_layout.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/spinner_window_layout.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/dypdx.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/dypdx.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/tasklist_item.xml",
+        "source": "/Users/Smile/edcollection/edcollection/res/layout/tasklist_item.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/bg_title.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/bg_title.xml"
+    },
+    {
+        "merged": "/Users/Smile/edcollection/edcollection/build/intermediates/res/merged/debug/layout/layout_table.xml",
+        "source": "/Users/Smile/edcollection/winewidgets/build/intermediates/bundles/debug/res/layout/layout_table.xml"
+    }
+]

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:edcollection="http://schemas.android.com/apk/res/com.winway.android.edcollection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <com.winway.android.edcollection.base.widgets.HeadComponent
+        android:id="@+id/hc_activity_select_line_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        edcollection:headTitle="查询线路"
+        edcollection:isShowOk="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <com.winway.android.ewidgets.input.InputComponent
+            android:id="@+id/inCom_select_line_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            edcollection:ewidget_inputCom_hint="请输入线路名称"
+            edcollection:ewidget_inputCom_isShowUnit="false" >
+        </com.winway.android.ewidgets.input.InputComponent>
+
+        <!--
+             <ImageView
+            android:id="@+id/iv_select_line_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search" />
+        -->
+
+        <Button
+            android:id="@+id/btn_select_line_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/btn_blue"
+            android:padding="8dp"
+            android:text="搜索"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp" >
+
+            <TextView
+                style="@style/text_Size18_color_000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="待选列表"
+                android:textColor="@color/text_color_default" />
+
+            <Button
+                android:id="@+id/btn_NoSelect_line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/btn_blue"
+                android:padding="5dp"
+                android:text="添加所有"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/lv_select_line_addlinelist"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+        </ListView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="#e9e9e9" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp" >
+
+            <TextView
+                style="@style/text_Size18_color_000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="已选列表"
+                android:textColor="@color/text_color_default" />
+
+            <Button
+                android:id="@+id/btn_selected_line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/btn_blue"
+                android:padding="5dp"
+                android:text="移除所有"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/lv_select_line_linelist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white" >
+        </ListView>
+    </LinearLayout>
+
+<!--     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="10dp" >
+
+        <Button
+            android:id="@+id/btn_select_line_confirm"
+            android:layout_width="@dimen/x160"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_blue"
+            android:padding="10dp"
+            android:text="@string/confirm"
+            android:textColor="@color/white" />
+    </LinearLayout> -->
+
+</LinearLayout>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:edcollection="http://schemas.android.com/apk/res/com.winway.android.edcollection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    android:orientation="vertical" >
+
+    <com.winway.android.edcollection.base.widgets.HeadComponent
+        android:id="@+id/server_setting_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        edcollection:headTitle="设置服务器"
+        edcollection:isShowOk="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:background="#eee"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/ll_dlg_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical" >
+
+                <com.winway.android.ewidgets.input.InputComponent
+                    android:id="@+id/inCon_server_loginaddr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    edcollection:ewidget_inputCom_hint="@string/input_hint"
+                    edcollection:ewidget_inputCom_isShowUnit="false"
+                    edcollection:ewidget_inputCom_title="登录地址" >
+                </com.winway.android.ewidgets.input.InputComponent>
+
+                <com.winway.android.ewidgets.input.InputComponent
+                    android:id="@+id/inCon_server_dataserviceaddr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    edcollection:ewidget_inputCom_hint="@string/input_hint"
+                    edcollection:ewidget_inputCom_isShowUnit="false"
+                    edcollection:ewidget_inputCom_title="数据服务接口地址" >
+                </com.winway.android.ewidgets.input.InputComponent>
+
+                <com.winway.android.ewidgets.input.InputComponent
+                    android:id="@+id/inCon_server_fileconnectservice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    edcollection:ewidget_inputCom_hint="@string/input_hint"
+                    edcollection:ewidget_inputCom_isShowUnit="false"
+                    edcollection:ewidget_inputCom_title="文件通讯服务" >
+                </com.winway.android.ewidgets.input.InputComponent>
+
+                <RelativeLayout
+                    android:id="@+id/rl_server_address_changedir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/white"
+                    android:padding="10dp" >
+
+                    <TextView
+                        style="@style/text_Size18_color_000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:text="切换SD卡" />
+                </RelativeLayout>
+
+                <RadioGroup
+                    android:id="@+id/rg_server_zcxz"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/rb_server_zcxz_nw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:checked="true"
+                        android:drawableLeft="@drawable/selected_ic_change"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
+                        android:text="南方电网公司"
+                        android:textSize="@dimen/text_size_18" />
+
+                    <RadioButton
+                        android:id="@+id/rb_server_zcxz_gw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/selected_ic_change"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
+                        android:text="国家电网公司"
+                        android:textSize="@dimen/text_size_18" />
+                </RadioGroup>
+
+                <!--
+                <RelativeLayout
+                    android:id="@+id/rl_server_zcxz_nfdwgs"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border_line_white_bg"
+                    android:paddingLeft="5dp"
+    				android:paddingRight="5dp"
+                    >
+                    <TextView
+                        android:id="@+id/tv_server_zcxz_nfdwgs_zcxzName"
+                        style="@style/text_Size16_color_000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="南方电网公司"
+                        android:textSize="@dimen/text_size_18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/iv_server_zcxz_nfdwgs_confirm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20dp"
+                        android:gravity="right|center_vertical"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ico_selected"
+                        android:visibility="visible" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/rl_server_zcxz_gjdwgs"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/border_line_white_bg"
+                    android:paddingLeft="5dp"
+    				android:paddingRight="5dp"
+                    >
+                    <TextView
+                        android:id="@+id/tv_server_zcxz_gjdwgs_zcxzName"
+                        style="@style/text_Size16_color_000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="国家电网公司"
+                        android:textSize="@dimen/text_size_18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/iv_server_zcxz_gjdwgs_confirm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20dp"
+                        android:gravity="right|center_vertical"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ico_selected"
+                        android:visibility="gone" />
+                </RelativeLayout>
+                -->
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

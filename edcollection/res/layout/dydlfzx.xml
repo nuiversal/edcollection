@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:edcollection="http://schemas.android.com/apk/res/com.winway.android.edcollection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.winway.android.edcollection.base.widgets.HeadComponent
+            android:id="@+id/hc_dydlfzx_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            edcollection:headTitle="@string/dydlfzx_title"
+            edcollection:isShowOk="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/ll_dydlfzx_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical" >
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_dydlfzx_sbid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:visibility="gone"
+                        edcollection:ewidget_inputCom_hint="@string/input_hint"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/dydlfzx_sbid" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <include
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        layout="@layout/link_device" />
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_dydlfzx_sbmc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/dydlfzx_sbmc" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_dydlfzx_yxbh"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/dydlfzx_yxbh" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_dydlfzx_dxmpid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/dydlfzx_dxmpid" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+                   
+
+                    <com.winway.android.ewidgets.input.InputSelectComponent
+                        android:id="@+id/insc_dydlfzx_dldj"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputSelect_hint="@string/drop_hint"
+                        edcollection:ewidget_inputSelect_title="@string/dydlfzx_dldj" />
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/insc_dydlfzx_ssds"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:visibility="gone"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_title="@string/dydlfzx_ssds" />
+
+                    <com.winway.android.ewidgets.input.InputSelectComponent
+                        android:id="@+id/insc_dydlfzx_ywdw"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputSelect_hint="@string/drop_hint"
+                        edcollection:ewidget_inputSelect_title="@string/dydlfzx_ywdw" />
+
+                    <com.winway.android.ewidgets.input.InputSelectComponent
+                        android:id="@+id/insc_dydlfzx_whbz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputSelect_hint="@string/drop_hint"
+                        edcollection:ewidget_inputSelect_title="@string/dydlfzx_whbz" />
+
+                    <com.winway.android.ewidgets.input.InputSelectComponent
+                        android:id="@+id/insc_dydlfzx_sblx"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputSelect_hint="@string/drop_hint"
+                        edcollection:ewidget_inputSelect_title="@string/dydlfzx_sblx" />
+
+                    <com.winway.android.ewidgets.input.InputSelectComponent
+                        android:id="@+id/insc_dydlfzx_sbzt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputSelect_hint="@string/drop_hint"
+                        edcollection:ewidget_inputSelect_title="@string/dydlfzx_sbzt" />
+
+                    <com.winway.android.ewidgets.input.InputSelectComponent
+                        android:id="@+id/insc_dydlfzx_zcxz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputSelect_hint="@string/drop_hint"
+                        edcollection:ewidget_inputSelect_title="@string/dydlfzx_zcxz" />
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_dydlfzx_zcdw"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/dydlfzx_zcdw" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_dydlfzx_xh"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/dydlfzx_xh" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_dydlfzx_sccj"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/dydlfzx_sccj" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_dydlfzx_ccbh"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/dydlfzx_ccbh" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_dydlfzx_ccrq"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/dydlfzx_ccrq" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_dydlfzx_tyrq"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/dydlfzx_tyrq" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_dydlfzx_eddy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="true"
+                        edcollection:ewidget_inputCom_unit="KV"
+                        edcollection:ewidget_inputCom_title="@string/dydlfzx_eddy" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_dydlfzx_eddl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                         edcollection:ewidget_inputCom_isShowUnit="true"
+                        edcollection:ewidget_inputCom_unit="A"
+                        edcollection:ewidget_inputCom_title="@string/dydlfzx_eddl" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+
+                    <com.winway.android.ewidgets.input.InputComponent
+                        android:id="@+id/inCon_dydlfzx_bz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        edcollection:ewidget_inputCom_hint="@string/input"
+                        edcollection:ewidget_inputCom_isShowUnit="false"
+                        edcollection:ewidget_inputCom_title="@string/dydlfzx_bz" >
+                    </com.winway.android.ewidgets.input.InputComponent>
+                </LinearLayout>
+            </ScrollView>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="2"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/ll_dydlfzx_attachment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <com.winway.android.ewidgets.attachment.AttachmentView
+                        android:id="@+id/av_dydlfzx_attachment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

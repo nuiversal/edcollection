@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:edcollection="http://schemas.android.com/apk/res/com.winway.android.edcollection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.winway.android.edcollection.base.widgets.HeadComponent
+        android:id="@+id/hc_power_room_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        edcollection:headTitle="@string/power_room"
+        edcollection:isShowOk="true"
+        edcollection:isShowReturn="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp" >
+
+            <com.winway.android.ewidgets.input.InputComponent
+                android:id="@+id/inCom_distribution_room_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                edcollection:ewidget_inputCom_hint="@string/input"
+                edcollection:ewidget_inputCom_isShowUnit="false"
+                edcollection:ewidget_inputCom_title="@string/name" >
+            </com.winway.android.ewidgets.input.InputComponent>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <com.winway.android.ewidgets.input.InputComponent
+                android:id="@+id/inCom_distribution_room_rightePro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                edcollection:ewidget_inputCom_hint="@string/input"
+                edcollection:ewidget_inputCom_isShowUnit="false"
+                edcollection:ewidget_inputCom_title="@string/sub_rightPro" >
+            </com.winway.android.ewidgets.input.InputComponent>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <com.winway.android.ewidgets.input.InputComponent
+                android:id="@+id/inCom_distribution_room_geoLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                edcollection:ewidget_inputCom_hint="@string/input"
+                edcollection:ewidget_inputCom_isShowUnit="false"
+                edcollection:ewidget_inputCom_title="@string/geoLocation" >
+            </com.winway.android.ewidgets.input.InputComponent>
+
+            <Button
+                android:id="@+id/btn_distribution_networking"
+                style="@style/text_Size18_color_ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/btn_blue"
+                android:padding="10dp"
+                android:text="@string/networking" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <com.winway.android.ewidgets.input.InputSelectComponent
+                android:id="@+id/inSelCom_distribution_room_voltage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                edcollection:ewidget_inputSelect_hint="@string/input"
+                edcollection:ewidget_inputSelect_title="@string/sub_voltage" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.winway.android.edcollection.base.widgets.TakePhotoComponent
+        android:id="@+id/tpc_power_room_take_photo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/white"
+        edcollection:takePhotoTitle="拍照" >
+    </com.winway.android.edcollection.base.widgets.TakePhotoComponent>
+
+</LinearLayout>

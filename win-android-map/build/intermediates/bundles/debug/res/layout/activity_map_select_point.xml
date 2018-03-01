@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- 地图模块开始 -->
+
+    <ocn.himap.maps.HiBaseMaps
+        android:id="@+id/maps_activity_map_select_point_map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <ImageView
+        android:id="@+id/tv_map_select_point_cent_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/dw" />
+
+    <!-- 标题模块开始 -->
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@+id/iv_map_select_point_return"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_return" />
+
+        <TextView
+            style="@style/text_size20_color_000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/map_select_point" />
+    </RelativeLayout>
+    <!-- 标题模块结束 -->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:layout_below="@id/rl_title"
+        android:background="@color/table_lightgray" />
+
+    <!-- 位置信息模块开始 -->
+
+    <RelativeLayout
+        android:id="@+id/rl_activity_map_select_point_location"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white" >
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingRight="55dp" >
+
+                <TextView
+                    android:id="@+id/tv_activity_map_select_point_about_location"
+                    style="@style/text_size16_color_000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="大概位置" />
+
+                <TextView
+                    android:id="@+id/tv_activity_map_select_point_specific_location"
+                    style="@style/text_size14_color_808080"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_activity_map_select_point_about_location"
+                    android:maxEms="30"
+                    android:singleLine="false"
+                    android:text="具体位置" />
+            </RelativeLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/tv_activity_map_select_point_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:text="@string/map_select_point_confirm"
+            android:textColor="@color/default_blue"
+            android:textSize="16sp"
+            android:paddingRight="10dp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_activity_map_select_point_confirm"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/systembgcolor" />
+    </RelativeLayout>
+    <!-- 位置信息模块结束 -->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:layout_above="@id/rl_activity_map_select_point_location"
+        android:background="@color/table_lightgray" />
+    <!-- 定位开始 -->
+
+    <ImageView
+        android:id="@+id/iv_activity_map_select_point_location"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@id/rl_activity_map_select_point_location"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/selector_img_bg" />
+    <!-- 定位结束 -->
+    <!-- 地图模块开始 -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/rl_activity_map_select_point_location"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/border_line_white_bg"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/iv_map_select_point_zoomIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="5dp"
+            android:src="@drawable/big" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/divide_line_color" />
+
+        <ImageView
+            android:id="@+id/iv_map_select_point_zoomOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="5dp"
+            android:src="@drawable/small" />
+    </LinearLayout>
+    <!-- 地图模块结束 -->
+
+</RelativeLayout>

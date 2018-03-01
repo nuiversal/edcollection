@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Android-PullToRefresh-master" />
+            <option value="$PROJECT_DIR$/Android-SVProgressHUD-master" />
+            <option value="$PROJECT_DIR$/basicbusiness" />
+            <option value="$PROJECT_DIR$/edcollection" />
+            <option value="$PROJECT_DIR$/win-android-map" />
+            <option value="$PROJECT_DIR$/win-android-res" />
+            <option value="$PROJECT_DIR$/win-android-util" />
+            <option value="$PROJECT_DIR$/winewidgets" />
+            <option value="$PROJECT_DIR$/winmedia" />
+            <option value="$PROJECT_DIR$/winsensor" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

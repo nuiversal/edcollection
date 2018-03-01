@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="nodeType">
+        <item >标识球</item>
+        <item >标识钉</item>
+        <item >虚拟点</item>
+        <item >杆塔</item>
+        <item >安键环</item>
+    </string-array>
+
+</resources>

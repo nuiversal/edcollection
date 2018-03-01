@@ -1,0 +1,4 @@
+#Thu Mar 01 15:13:55 CST 2018
+base.0=/Users/Smile/edcollection/edcollection/build/intermediates/transforms/dexMerger/debug/9
+renamed.0=classes.dex
+file.0=/Users/Smile/edcollection/edcollection/build/intermediates/transforms/dexMerger/debug/9/classes.dex

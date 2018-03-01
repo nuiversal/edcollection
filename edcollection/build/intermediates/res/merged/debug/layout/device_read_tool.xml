@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/radius_white"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/imgBtn_deviceRead__bsq"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/btn_radius_white_selector"
+        android:src="@drawable/ico_bsq_s" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_deviceRead_bq"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/btn_radius_white_selector"
+        android:src="@drawable/sbdq_s" />
+
+
+</LinearLayout>

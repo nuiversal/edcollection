@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="btn_selector_normal">#007EE5</color>
+    <color name="btn_selector_press">#0045D8</color>
+    <declare-styleable name="EButtonComponent"><attr format="reference" name="ewidget_ebutton_backgroundDrawable"/></declare-styleable>
+    <declare-styleable name="EInputComponentAttr"><attr format="boolean" name="ewidget_inputCom_isShowUnit"/><attr format="boolean" name="ewidget_inputCom_isShowTitle"/><attr format="string" name="ewidget_inputCom_hint"/><attr format="string" name="ewidget_inputCom_title"/><attr format="string" name="ewidget_inputCom_unit"/><attr format="boolean" name="ewidget_inputCom_isShowClearIcon"/><attr format="boolean" name="ewidget_inputCom_isShowHexagram"/></declare-styleable>
+    <declare-styleable name="EInputSelectComponentAttr"><attr format="string" name="ewidget_inputSelect_hint"/><attr format="string" name="ewidget_inputSelect_title"/><attr format="boolean" name="ewidget_inputSelect_justSelect"/></declare-styleable>
+    <declare-styleable name="ELoginInputComponentAttr"><attr format="dimension" name="ewidget_loginInputCom_inputHeight"/></declare-styleable>
+    <declare-styleable name="EMultilineInputComponentAttr"><attr format="string" name="ewidget_inputComMultiline_hint"/></declare-styleable>
+    <declare-styleable name="ESearchComponent"><attr format="string" name="ewidget_esearch_hint"/></declare-styleable>
+    <declare-styleable name="ExpandableTextView"><attr format="reference|integer" name="etv_MaxLinesOnShrink"/><attr format="reference|string" name="etv_EllipsisHint"/><attr format="reference|string" name="etv_ToExpandHint"/><attr format="reference|string" name="etv_ToShrinkHint"/><attr format="reference|string" name="etv_GapToExpandHint"/><attr format="reference|string" name="etv_GapToShrinkHint"/><attr format="reference|boolean" name="etv_EnableToggle"/><attr format="reference|boolean" name="etv_ToExpandHintShow"/><attr format="reference|boolean" name="etv_ToShrinkHintShow"/><attr format="reference|color" name="etv_ToExpandHintColor"/><attr format="reference|color" name="etv_ToShrinkHintColor"/><attr format="reference|color" name="etv_ToExpandHintColorBgPressed"/><attr format="reference|color" name="etv_ToShrinkHintColorBgPressed"/><attr format="enum" name="etv_InitState">
+            <enum name="shrink" value="0"/>
+            <enum name="expand" value="1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="ScrollLayout"><attr format="dimension" name="minOffset"/><attr format="dimension" name="maxOffset"/><attr format="dimension" name="exitOffset"/><attr name="mode">
+            <flag name="open" value="0x0"/>
+            <flag name="close" value="0x1"/>
+            <flag name="exit" value="0x2"/>
+        </attr><attr format="boolean" name="allowHorizontalScroll"/><attr format="boolean" name="isSupportExit"/></declare-styleable>
+    <declare-styleable name="swipelistviewstyle"><attr format="dimension" name="right_width"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="line_height">0.5dp</dimen>
+    <dimen name="margintop_svprogresshuddefault_msg">10dp</dimen>
+    <dimen name="padding_svprogresshuddefault">15dp</dimen>
+    <dimen name="radius_svprogresfault">25px</dimen>
+    <dimen name="size_image_bigloading">80dp</dimen>
+    <dimen name="size_image_smallloading">60dp</dimen>
+    <dimen name="size_minwidth_svprogresshuddefault">120dp</dimen>
+    <dimen name="textSize_svprogresshuddefault_msg">15sp</dimen>
+    <item name="node_header" type="id"/>
+    <item name="node_items" type="id"/>
+    <item name="tree_items" type="id"/>
+    <string name="app_name">Ewidgets</string>
+    <string name="ewidgets_login_login">登录</string>
+    <string name="ewidgets_login_pwd">密码</string>
+    <string name="ewidgets_login_username">用户名</string>
+    <string name="offline_attachment_title_text">附件采集</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <style name="Animation.CustomDialog" parent="android:Animation.Dialog">
+         <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Light"/>
+    <style name="AppTheme" parent="AppBaseTheme"/>
+    <style name="progress_dialog" parent="@android:style/Theme.Dialog">
+	      <item name="android:windowFrame">@null</item> <!--Dialog的windowFrame框为无 --> 
+	      <item name="android:windowIsFloating">false</item><!-- 是否漂现在activity上 -->
+	      <item name="android:windowIsTranslucent">true</item><!-- 是否半透明 -->
+	      <item name="android:windowNoTitle">true</item>
+	      <item name="android:backgroundDimEnabled">false</item>
+<!-- 	      <item name="android:windowBackground">@drawable/loading_bg</item> -->
+	      <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+</resources>

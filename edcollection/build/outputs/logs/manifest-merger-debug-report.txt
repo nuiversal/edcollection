@@ -1,0 +1,690 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:1:1-353:12
+INJECTED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:1:1-353:12
+INJECTED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:1:1-353:12
+MERGED from [:basicbusiness] /Users/Smile/edcollection/basicbusiness/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:winewidgets] /Users/Smile/edcollection/winewidgets/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-24:12
+MERGED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-71:12
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-48:12
+MERGED from [:winmedia] /Users/Smile/edcollection/winmedia/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:win-android-res] /Users/Smile/edcollection/win-android-res/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:win-android-util] /Users/Smile/edcollection/win-android-util/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:1:1-353:12
+INJECTED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:1:1-353:12
+	package
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:2:5-46
+	android:versionName
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:4:5-30
+		INJECTED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml
+		INJECTED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:3:5-28
+		INJECTED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml
+		INJECTED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:6:5-8:41
+MERGED from [:basicbusiness] /Users/Smile/edcollection/basicbusiness/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:basicbusiness] /Users/Smile/edcollection/basicbusiness/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:winewidgets] /Users/Smile/edcollection/winewidgets/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:winewidgets] /Users/Smile/edcollection/winewidgets/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:winmedia] /Users/Smile/edcollection/winmedia/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:winmedia] /Users/Smile/edcollection/winmedia/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:win-android-res] /Users/Smile/edcollection/win-android-res/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:win-android-res] /Users/Smile/edcollection/win-android-res/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:win-android-util] /Users/Smile/edcollection/win-android-util/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:win-android-util] /Users/Smile/edcollection/win-android-util/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:8:9-38
+	android:minSdkVersion
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:7:9-35
+uses-permission#android.permission.INTERNET
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:10:5-67
+MERGED from [:winewidgets] /Users/Smile/edcollection/winewidgets/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-67
+MERGED from [:winewidgets] /Users/Smile/edcollection/winewidgets/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-67
+MERGED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:32:5-67
+MERGED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:32:5-67
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:5-67
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:10:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:11:5-79
+MERGED from [:winewidgets] /Users/Smile/edcollection/winewidgets/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-79
+MERGED from [:winewidgets] /Users/Smile/edcollection/winewidgets/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-79
+MERGED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:5-21:23
+MERGED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:5-21:23
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-79
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:13:5-79
+MERGED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-15:23
+MERGED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-15:23
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-79
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:14:5-81
+MERGED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-12:23
+MERGED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-12:23
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-81
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:14:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:16:5-84
+MERGED from [:winewidgets] /Users/Smile/edcollection/winewidgets/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:5-84
+MERGED from [:winewidgets] /Users/Smile/edcollection/winewidgets/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:5-84
+MERGED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:34:5-35:23
+MERGED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:34:5-35:23
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:16:22-81
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:17:5-80
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:17:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:18:5-81
+MERGED from [:winewidgets] /Users/Smile/edcollection/winewidgets/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-81
+MERGED from [:winewidgets] /Users/Smile/edcollection/winewidgets/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:5-81
+MERGED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:29:5-30:23
+MERGED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:29:5-30:23
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:18:5-81
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:18:22-78
+uses-permission#android.permission.RESTART_PACKAGES
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:20:5-75
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:20:22-72
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:21:22-65
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:23:5-69
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:23:22-66
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:25:5-68
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:23:5-68
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:25:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:26:5-74
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:24:5-74
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:24:5-74
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:26:22-71
+uses-permission#android.permission.BLUETOOTH_PRIVILEGED
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:27:5-79
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:27:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:28:5-75
+MERGED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:5-27:23
+MERGED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:5-27:23
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:19:5-75
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:28:22-72
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:29:5-68
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:29:22-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:33:5-34:23
+MERGED from [:winewidgets] /Users/Smile/edcollection/winewidgets/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-76
+MERGED from [:winewidgets] /Users/Smile/edcollection/winewidgets/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-76
+MERGED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:5-18:23
+MERGED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:5-18:23
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-76
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:33:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:36:5-37:23
+MERGED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:23:5-24:23
+MERGED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:23:5-24:23
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:5-76
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:36:22-73
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:39:5-71
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:39:22-68
+uses-permission#android.permission.NFC
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:41:5-62
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:5-62
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:5-62
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:41:22-59
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:42:5-78
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:42:22-75
+application
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:44:5-351:19
+MERGED from [:basicbusiness] /Users/Smile/edcollection/basicbusiness/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-20
+MERGED from [:basicbusiness] /Users/Smile/edcollection/basicbusiness/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-20
+MERGED from [:winewidgets] /Users/Smile/edcollection/winewidgets/build/intermediates/manifests/full/debug/AndroidManifest.xml:18:5-22:19
+MERGED from [:winewidgets] /Users/Smile/edcollection/winewidgets/build/intermediates/manifests/full/debug/AndroidManifest.xml:18:5-22:19
+MERGED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:40:5-69:19
+MERGED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:40:5-69:19
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:30:5-46:19
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:30:5-46:19
+MERGED from [:winmedia] /Users/Smile/edcollection/winmedia/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-12:19
+MERGED from [:winmedia] /Users/Smile/edcollection/winmedia/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-12:19
+MERGED from [:win-android-res] /Users/Smile/edcollection/win-android-res/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-20
+MERGED from [:win-android-res] /Users/Smile/edcollection/win-android-res/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-20
+	android:label
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:48:9-41
+	android:largeHeap
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:50:9-33
+	android:icon
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:47:9-45
+	android:allowBackup
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:46:9-35
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:49:9-40
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:45:9-77
+activity#com.winway.android.edcollection.login.activity.LoginActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:53:9-63:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:56:13-49
+	android:label
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:55:13-45
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:57:13-60
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:54:13-57
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:58:13-62:29
+action#android.intent.action.MAIN
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:59:17-69
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:59:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:61:17-77
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:61:27-74
+activity#com.winway.android.edcollection.project.activity.ProjectingActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:64:9-68:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:66:13-49
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:67:13-60
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:65:13-64
+activity#com.winway.android.edcollection.main.activity.MainActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:69:9-74:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:71:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:73:13-52
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:72:13-60
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:70:13-55
+activity#com.winway.android.edcollection.adding.activity.MarkerCollectActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:75:9-80:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:77:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:79:13-52
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:78:13-60
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:76:13-66
+activity#com.winway.android.edcollection.adding.activity.IntermediateHeadActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:81:9-86:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:83:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:85:13-52
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:84:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:82:13-69
+activity#com.winway.android.edcollection.adding.activity.LableActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:87:9-92:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:89:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:91:13-52
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:90:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:88:13-58
+activity#com.winway.android.edcollection.adding.activity.TowerActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:93:9-98:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:95:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:97:13-52
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:96:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:94:13-58
+activity#com.winway.android.edcollection.adding.activity.TransformerActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:99:9-104:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:101:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:103:13-52
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:102:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:100:13-64
+activity#com.winway.android.edcollection.adding.activity.WorkWellActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:105:9-110:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:107:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:109:13-52
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:108:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:106:13-61
+activity#com.winway.android.edcollection.adding.activity.CabinetOrBoxActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:117:9-121:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:119:13-49
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:120:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:118:13-65
+activity#com.winway.android.edcollection.adding.activity.SubstationActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:122:9-127:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:124:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:126:13-52
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:125:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:123:13-63
+activity#com.winway.android.edcollection.adding.activity.DistributionRoomActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:128:9-133:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:130:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:132:13-52
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:131:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:129:13-69
+activity#com.winway.android.edcollection.adding.activity.AddTempLineActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:138:9-142:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:140:13-49
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:141:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:139:13-64
+activity#com.winway.android.edcollection.adding.activity.LineNameActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:143:9-148:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:145:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:146:13-54
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:147:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:144:13-61
+activity#com.winway.android.edcollection.adding.activity.SelectLineActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:149:9-153:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:151:13-49
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:152:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:150:13-63
+activity#com.winway.android.edcollection.adding.activity.KgzActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:154:9-159:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:156:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:158:13-52
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:157:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:155:13-56
+activity#com.winway.android.edcollection.adding.activity.ChannelDLQActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:160:9-165:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:162:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:164:13-52
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:163:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:161:13-63
+activity#com.winway.android.edcollection.adding.activity.ChannelDLGActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:166:9-171:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:168:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:170:13-52
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:169:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:167:13-63
+activity#com.winway.android.edcollection.adding.activity.ChannelDLGDActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:172:9-177:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:174:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:176:13-52
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:175:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:173:13-64
+activity#com.winway.android.edcollection.adding.activity.ChannelDLSDActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:178:9-183:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:180:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:182:13-52
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:181:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:179:13-64
+activity#com.winway.android.edcollection.adding.activity.ChannelDGActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:184:9-189:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:186:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:188:13-52
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:187:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:185:13-62
+activity#com.winway.android.edcollection.adding.activity.DypdxActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:190:9-195:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:192:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:194:13-52
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:193:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:191:13-58
+activity#com.winway.android.edcollection.adding.activity.DydlfzxActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:196:9-201:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:198:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:200:13-52
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:199:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:197:13-60
+activity#com.winway.android.edcollection.adding.activity.HwgActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:202:9-207:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:204:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:206:13-52
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:205:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:203:13-56
+activity#com.winway.android.edcollection.adding.activity.DlfzxActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:208:9-213:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:210:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:212:13-52
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:211:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:209:13-58
+activity#com.winway.android.edcollection.adding.activity.ChannelDLZMActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:214:9-219:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:216:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:218:13-52
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:217:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:215:13-64
+activity#com.winway.android.edcollection.adding.activity.ChannelJkActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:220:9-225:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:222:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:224:13-52
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:223:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:221:13-62
+activity#com.winway.android.edcollection.adding.activity.ChannelDLCActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:226:9-230:64
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:228:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:230:13-52
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:229:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:227:13-63
+activity#com.winway.android.edcollection.adding.activity.XsbdzActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:239:9-244:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:241:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:243:13-52
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:242:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:240:13-58
+activity#com.winway.android.edcollection.task.activity.TaskDetailActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:245:9-249:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:247:13-49
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:248:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:246:13-61
+activity#com.winway.android.edcollection.task.activity.EmTaskDetailActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:250:9-254:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:252:13-49
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:253:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:251:13-63
+activity#com.winway.android.edcollection.adding.activity.SelectDeviceActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:255:9-259:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:257:13-49
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:258:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:256:13-65
+activity#com.winway.android.edcollection.adding.activity.JgActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:260:9-265:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:262:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:264:13-52
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:263:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:261:13-55
+activity#com.winway.android.edcollection.adding.activity.ChannelEditActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:266:9-270:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:268:13-49
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:269:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:267:13-64
+activity#com.winway.android.edcollection.adding.activity.ChannelSelectActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:271:9-275:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:273:13-49
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:274:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:272:13-97
+activity#com.winway.android.edcollection.login.activity.SettingServerAddressActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:276:9-280:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:278:13-49
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:279:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:277:13-103
+activity#com.winway.android.edcollection.rtk.activity.DiscoveryActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:281:9-285:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:283:13-49
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:284:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:282:13-59
+activity#com.winway.android.sensor.label.LabelReadActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:286:9-290:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:288:13-49
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:289:13-88
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:287:13-77
+activity#com.winway.android.sensor.marker.MarkerReadActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:291:9-295:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:293:13-49
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:294:13-88
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:292:13-79
+activity#com.winway.android.edcollection.adding.activity.ChannelPlanningActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:296:9-300:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:298:13-49
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:299:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:297:13-99
+activity#com.winway.android.edcollection.adding.activity.LookVRImageActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:301:9-305:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:303:13-49
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:304:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:302:13-95
+activity#com.winway.android.sensor.nfc.bluetoothnfc.BluetoothNFC_DK_Activity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:312:9-316:20
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:34:9-42:20
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:34:9-42:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:314:13-49
+	android:label
+		ADDED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:36:13-45
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:315:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:313:13-95
+activity#com.winway.android.sensor.nfc.bluetoothnfc.BluetoothNFC_ACS_Activity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:317:9-321:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:319:13-49
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:320:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:318:13-96
+activity#com.winway.android.edcollection.adding.activity.DeviceReadQueryActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:322:9-326:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:324:13-49
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:325:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:323:13-99
+activity#com.winway.android.edcollection.about.activity.AboutActivity
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:327:9-331:20
+	android:screenOrientation
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:329:13-49
+	android:theme
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:330:13-66
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:328:13-88
+service#com.winway.android.edcollection.base.service.UploadCrashFileService
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:334:3-336:18
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:335:7-89
+service#com.baidu.location.f
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:340:9-344:19
+MERGED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:65:9-68:41
+MERGED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:65:9-68:41
+	android:process
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:343:13-38
+	android:enabled
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:342:13-35
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:341:13-48
+service#com.winway.android.edcollection.setting.service.AutoUploadService
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:346:9-347:19
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:346:18-67
+service#com.dk.bleNfc.BleNfcDeviceService
+ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:350:9-69
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:45:9-69
+MERGED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:45:9-69
+	android:name
+		ADDED from /Users/Smile/edcollection/edcollection/AndroidManifest.xml:350:18-66
+uses-permission#android.permission.READ_LOGS
+ADDED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:37:5-38:23
+	android:name
+		ADDED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:37:22-65
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:45:9-47:64
+	android:value
+		ADDED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:47:13-61
+	android:name
+		ADDED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:46:13-52
+activity#com.winway.android.map.Activity_Map
+ADDED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:49:9-57:20
+	android:label
+		ADDED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:51:13-45
+	android:name
+		ADDED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:50:13-63
+activity#com.winway.android.map.selectPoint.activity.MapSelectPointActivity
+ADDED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:59:9-63:20
+	android:screenOrientation
+		ADDED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:61:13-49
+	android:theme
+		ADDED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:62:13-60
+	android:name
+		ADDED from [:win-android-map] /Users/Smile/edcollection/win-android-map/build/intermediates/manifests/full/debug/AndroidManifest.xml:60:13-94
+uses-permission-sdk-23#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:21:5-88
+	android:name
+		ADDED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:21:29-85
+uses-feature#android.hardware.bluetooth_le
+ADDED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:5-28:36
+	android:required
+		ADDED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:28:9-33
+	android:name
+		ADDED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:27:9-53
+service#com.winway.android.sensor.geolocation.serviceImpl.GPSService
+ADDED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:44:9-96
+	android:name
+		ADDED from [:winsensor] /Users/Smile/edcollection/winsensor/build/intermediates/manifests/full/debug/AndroidManifest.xml:44:18-93

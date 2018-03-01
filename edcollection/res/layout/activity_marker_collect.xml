@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:edcollection="http://schemas.android.com/apk/res/com.winway.android.edcollection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.winway.android.edcollection.base.widgets.HeadComponent
+        android:id="@+id/hc_marker_collect_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        edcollection:headTitle="@string/collection_info"
+        edcollection:isShowOk="false"
+        edcollection:isShowReturn="true" />
+
+    <include layout="@layout/mark_tab" />
+    <!-- 这里 使用 weight , 设置为 1 ,高度设置为 0dp后 就填充了 页面的剩余部分 -->
+
+    <com.winway.android.ewidgets.noscrollviewpager.NoScrollViewPager
+        android:id="@+id/vp_marker_collect_viewpage"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#e9e9e9" >
+    </com.winway.android.ewidgets.noscrollviewpager.NoScrollViewPager>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_title_bar"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/btn_marker_collect_sameinfo"
+            style="@style/text_Size18_color_0161FF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/btn_blue_text_white_bg"
+            android:padding="10dp"
+            android:text="同上一标识信息" />
+
+        <Button
+            android:id="@+id/btn_marker_collect_save"
+            style="@style/text_Size18_color_0161FF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/btn_blue_text_white_bg"
+            android:paddingBottom="10dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:paddingTop="10dp"
+            android:text="保存" />
+    </LinearLayout>
+
+</LinearLayout>

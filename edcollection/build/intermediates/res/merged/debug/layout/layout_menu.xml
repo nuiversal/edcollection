@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@color/app_default_color" 
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:id="@+id/iv_layout_menu_fold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/iv_layout_menu_close"
+            android:paddingRight="5dp"
+            android:src="@drawable/ic_up" />
+
+        <ImageView
+            android:id="@+id/iv_layout_menu_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/close" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_layout_menu_wgfz"
+            style="@style/text_Size16_color_000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/jm_wgfz" 
+            />
+        
+        <TextView
+            android:id="@+id/tv_layout_menu_wgfz_unknow_line"
+            style="@style/text_Size16_color_000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/jm_wgfz_unknow_line" 
+            />
+        
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@color/gray"
+            />
+
+        <TextView
+            android:id="@+id/tv_layout_menu_zjzj"
+            style="@style/text_Size16_color_000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/jm_zjzj" />
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@color/gray"
+            />
+
+        <TextView
+            android:id="@+id/tv_layout_menu_qxzj"
+            style="@style/text_Size16_color_000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/jm_qxzj" />
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@color/gray"
+            />
+
+        <TextView
+            android:id="@+id/tv_layout_menu_lp"
+            style="@style/text_Size16_color_000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/jm_open_lp" />
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@color/gray"
+            />
+
+        <TextView
+            android:id="@+id/tv_layout_menu_jm_bg_image"
+            style="@style/text_Size16_color_000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="截面背景" />
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@color/gray"
+            />
+        
+        <TextView
+            android:id="@+id/tv_layout_menu_jm_history_image"
+            style="@style/text_Size16_color_000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="历史截面" />
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@color/gray"
+            />
+
+        <TextView
+            android:id="@+id/tv_layout_menu_vr_bg_image"
+            style="@style/text_Size16_color_000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="拍照VR背景图"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_layout_menu_vr_ps_image"
+            style="@style/text_Size16_color_000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="拍照VR前景图"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_layout_menu_look_vr_bg_image"
+            style="@style/text_Size16_color_000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="查看VR背景图"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_layout_menu_look_vr_ps_image"
+            style="@style/text_Size16_color_000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="查看VR前景图"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_activity_channel_planing_operation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_activity_channel_planing_read"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查看"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/rb_activity_channel_planing_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="编辑"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/rb_activity_channel_planing_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="删除"
+            android:textSize="12sp" />
+    </RadioGroup>
+
+</LinearLayout>

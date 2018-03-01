@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:edcollection="http://schemas.android.com/apk/res/com.winway.android.edcollection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ll_work_well_conventions_dragView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/layout_ground_boder"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/rl_dialog_malfunction_layout_title"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:background="#07f" >
+
+                <TextView
+                    android:id="@+id/tv_work_well_conventions_title_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="工井命名规范"
+                    android:textColor="@color/white" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_dialog_malfunction_layout_head_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="3dp"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/iv_work_well_conventions_close"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/ico_close_bg_white" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_NamingConventions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="命名规范"
+                    android:textColor="#07f"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/iv_NamingConventions_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/more_down" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_name_method"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/workwell_name_method"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_name_principle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/workwell_name_principle"
+                android:visibility="gone" />
+
+            <com.winway.android.ewidgets.input.InputComponent
+                android:id="@+id/inCom_namingConventions_xzq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:inputType="number|numberDecimal"
+                edcollection:ewidget_inputCom_hint="@string/input"
+                edcollection:ewidget_inputCom_isShowHexagram="false"
+                edcollection:ewidget_inputCom_isShowUnit="false"
+                edcollection:ewidget_inputCom_title="@string/namingconventions_xzq" >
+            </com.winway.android.ewidgets.input.InputComponent>
+
+            <com.winway.android.ewidgets.input.InputComponent
+                android:id="@+id/inCom_namingConventions_dlm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:inputType="number|numberDecimal"
+                edcollection:ewidget_inputCom_hint="@string/input"
+                edcollection:ewidget_inputCom_isShowHexagram="false"
+                edcollection:ewidget_inputCom_isShowUnit="false"
+                edcollection:ewidget_inputCom_title="@string/namingconventions_dlm" />
+
+            <com.winway.android.ewidgets.input.InputSelectComponent
+                android:id="@+id/insc_namingConventions_fx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                edcollection:ewidget_inputSelect_hint="选择"
+                edcollection:ewidget_inputSelect_title="方向" />
+
+            <com.winway.android.ewidgets.input.InputComponent
+                android:id="@+id/inCom_namingConventions_tdlx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:inputType="number|numberDecimal"
+                edcollection:ewidget_inputCom_hint="@string/input"
+                edcollection:ewidget_inputCom_isShowHexagram="false"
+                edcollection:ewidget_inputCom_isShowUnit="false"
+                edcollection:ewidget_inputCom_title="@string/namingconventions_tdlx" />
+
+            <com.winway.android.ewidgets.input.InputComponent
+                android:id="@+id/inCom_namingConventions_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:inputType="number"
+                edcollection:ewidget_inputCom_hint="@string/input"
+                edcollection:ewidget_inputCom_isShowHexagram="false"
+                edcollection:ewidget_inputCom_isShowUnit="false"
+                edcollection:ewidget_inputCom_title="@string/namingconventions_d" />
+
+            <Button
+                android:id="@+id/btn_namingConventions_confirm"
+                style="@style/text_Size18_color_ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_blue"
+                android:gravity="center_vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="5dp"
+                android:text="@string/ok" />
+        </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/include_fragment_new_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        layout="@layout/fragment_new_title" />
+
+    <include
+        android:id="@+id/include_fragment_new_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/include_fragment_new_title"
+        layout="@layout/map" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="170dp"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/imgBtn_fragment_new_tree"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_radius_white_selector"
+            android:contentDescription="台账树"
+            android:padding="12dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/tree" />
+
+        <ImageButton
+            android:id="@+id/imgBtn_fragment_new_search"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_radius_white_selector"
+            android:contentDescription="查询"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/search" />
+
+        <ImageButton
+            android:id="@+id/imgBtn_fragment_new_rtk"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_radius_white_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/rtk" />
+
+        <com.ant.liao.GifView
+            android:id="@+id/gifView_fragment_new_rtk"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_radius_white_selector"
+            android:padding="6dp"
+            android:scaleType="fitXY"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/imgBtn_fragment_new_way"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_radius_white_selector"
+            android:contentDescription="显示类型"
+            android:padding="15dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ico_bsq_n" />
+
+        <ImageButton
+            android:id="@+id/imgBtn_fragment_new_zbsb"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/btn_radius_white_selector"
+            android:contentDescription="zbsb"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/sm_n" />
+
+        <ImageButton
+            android:id="@+id/imgBtn_fragment_lableReadQuery"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/btn_radius_white_selector"
+            android:contentDescription="查询读取"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/sbdq_n" />
+    </LinearLayout>
+
+    <com.winway.android.ewidgets.radar.SearchDevicesView
+        android:id="@+id/search_member_view_radar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:visibility="gone" >
+    </com.winway.android.ewidgets.radar.SearchDevicesView>
+
+    <include
+        android:id="@+id/include_main_item_transfer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        layout="@layout/main_item_transfer"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/layout_tree_compoment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/include_fragment_new_title"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <HorizontalScrollView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/tree_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#AFffffff"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/search_result_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/include_fragment_new_title"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/app_default_color"
+                android:padding="4dp" >
+
+                <ImageView
+                    android:id="@+id/search_result_more_down"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="4dp"
+                    android:src="@drawable/more_down_white"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/search_result_more_up"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="4dp"
+                    android:src="@drawable/more_up_white" />
+
+                <Button
+                    android:id="@+id/search_result_back"
+                    android:layout_width="38dp"
+                    android:layout_height="26dp"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/btn_blue"
+                    android:text="返回"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/search_result_container_close"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_close_white" />
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/listview_search_result_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#e0ffffff"
+                android:scrollbars="none"
+                android:visibility="gone" >
+            </ListView>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:id="@+id/search_kind_result_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#e0ffffff"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/search_result_bsq"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_line_white_bg"
+                        android:padding="4dp"
+                        android:text="标识器：18"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/search_result_td"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_line_white_bg"
+                        android:padding="4dp"
+                        android:text="通道：1"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/search_result_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_line_white_bg"
+                        android:padding="4dp"
+                        android:text="线路：2"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/search_result_well"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_line_white_bg"
+                        android:padding="4dp"
+                        android:text="工井：0"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/search_result_tower"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_line_white_bg"
+                        android:padding="4dp"
+                        android:text="杆塔：0"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/search_result_room"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_line_white_bg"
+                        android:padding="4dp"
+                        android:text="配电室：0"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/search_result_transformer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_line_white_bg"
+                        android:padding="4dp"
+                        android:text="变压器：0"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/search_result_station"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_line_white_bg"
+                        android:padding="4dp"
+                        android:text="变电站：0"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/search_result_kgz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_line_white_bg"
+                        android:padding="4dp"
+                        android:text="开关站：0"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/search_result_xsbdz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_line_white_bg"
+                        android:padding="4dp"
+                        android:text="箱式变电站：0"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/search_result_dypdx"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_line_white_bg"
+                        android:padding="4dp"
+                        android:text="低压配电箱：0"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/search_result_lable"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_line_white_bg"
+                        android:padding="4dp"
+                        android:text="电子标签：0"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/search_result_midle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_line_white_bg"
+                        android:padding="4dp"
+                        android:text="中间接头：0"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/search_result_hwg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_line_white_bg"
+                        android:padding="4dp"
+                        android:text="环网柜：0"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/search_result_dlfzx"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_line_white_bg"
+                        android:padding="4dp"
+                        android:text="电缆分支箱：0"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/search_result_dydlfzx"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_line_white_bg"
+                        android:padding="4dp"
+                        android:text="低压电缆分支箱：0"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/search_result_jg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_line_white_bg"
+                        android:padding="4dp"
+                        android:text="井盖：4"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

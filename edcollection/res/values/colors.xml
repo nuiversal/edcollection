@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main_tab_f">#0161ff</color>
+    <color name="main_tab">#000000</color>
+    <!-- 浅蓝 -->
+    <!-- app中默认字体颜色 -->
+    <color name="text_color_default">#0161FF</color>
+    <!-- app中默认布局背景底色 -->
+    <color name="layout_bg_color_default">#f5f5f5</color>
+    <color name="wathet">#0161FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <!-- 焦点时的文本颜色 -->
+    <color name="tab_text_color_f">#0161ff</color>
+    <!-- 浅灰 -->
+    <color name="gray">#dadada</color>
+
+    <!-- app默认head颜色 -->
+    <color name="head_bg_color">#0061fe</color>
+    <color name="head_bg_color_halfTrans">#0e0061fe</color>
+    
+    <!-- app默认色 -->
+    <color name="app_default_color">#0061fe</color>
+
+</resources>
